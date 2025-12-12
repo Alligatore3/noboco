@@ -1,5 +1,11 @@
 <template>
   <header>
-    <h1>Hello World</h1>
+    <Container>
+      <div class="py-6">
+        <Logo />
+      </div>
+    </Container>
   </header>
+
+  <Divider />
 </template>
