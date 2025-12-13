@@ -69,12 +69,18 @@ const submitForm = () => {
 
           <CountriesSelect label="Target market" />
 
-          <button
-            class="mx-auto rounded-lg text-white bg-blue-700 font-medium leading-5 text-sm px-4 py-2.5"
-            type="submit"
-          >
-            Join waitlist 👉
-          </button>
+          <div class="flex flex-col items-center gap-3 py-2">
+            <button
+              class="mx-auto rounded-lg text-white bg-blue-700 font-medium leading-5 text-sm px-4 py-2.5"
+              type="submit"
+            >
+              Join waitlist 👉
+            </button>
+
+            <p class="text-xs text-gray-500 text-center">
+              We respect your data privacy. No spam, ever.
+            </p>
+          </div>
         </form>
       </div>
     </ShadowBox>
