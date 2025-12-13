@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { countries } from "../../assets/data/countries";
+
 const { label, isRequired } = defineProps({
   label: {
     type: String,
@@ -12,6 +14,12 @@ const { label, isRequired } = defineProps({
 });
 
 const selectId = computed(() => label.toLowerCase().replaceAll(/ /g, "-"));
+const options = computed(() =>
+  countries.map(({ code: value, name: label }) => ({
+    value,
+    label,
+  }))
+);
 </script>
 
 <template>
@@ -28,10 +36,9 @@ const selectId = computed(() => label.toLowerCase().replaceAll(/ /g, "-"));
       :id="selectId"
     >
       <option value="" selected>Choose a country</option>
-      <option value="US">United States</option>
-      <option value="CA">Canada</option>
-      <option value="FR">France</option>
-      <option value="DE">Germany</option>
+      <option v-for="option in options" :value="option.value">
+        {{ option.label }}
+      </option>
     </select>
   </div>
 </template>
