@@ -1,12 +1,14 @@
 <template>
   <footer>
     <Container>
-      <div class="py-6">
-        <div class="flex items-center gap-2 justify-between">
+      <div class="px-4 py-6">
+        <div
+          class="flex flex-col md:flex-row items-center gap-2 justify-between"
+        >
           <Logo />
 
           <nav>
-            <ul class="flex items-center gap-4">
+            <ul class="flex items-center gap-4 mt-4 md:mt-0">
               <li>
                 <a href="#" class="text-sm text-gray-500">Privacy Policy</a>
               </li>

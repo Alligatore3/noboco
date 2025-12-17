@@ -11,7 +11,7 @@
 <template>
   <section class="relative">
     <Container>
-      <div class="h-[calc(100vh-80px)]">
+      <div class="h-[calc(100vh-80px)] px-4 md:px-0">
         <div class="flex items-center gap-4 h-full">
           <div class="flex flex-1 flex-col justify-center gap-6">
             <h2 class="text-5xl font-bold">
@@ -27,20 +27,20 @@
             <div class="w-full flex gap-2">
               <a
                 href="#join-waitlist"
-                class="rounded-lg text-white bg-blue-700 font-medium leading-5 text-sm px-4 py-2.5"
+                class="rounded-lg text-white bg-blue-700 font-medium leading-5 text-sm px-4 py-2.5 flex-1 md:flex-none text-center"
               >
                 Join waitlist 👉
               </a>
               <a
                 href="#partner-with-us"
-                class="rounded-lg border font-medium leading-5 text-sm px-4 py-2.5"
+                class="rounded-lg border font-medium leading-5 text-sm px-4 py-2.5 flex-1 md:flex-none text-center"
               >
                 Partner with us
               </a>
             </div>
           </div>
 
-          <div class="flex-1" />
+          <div class="hidden md:block flex-1" />
         </div>
       </div>
     </Container>
