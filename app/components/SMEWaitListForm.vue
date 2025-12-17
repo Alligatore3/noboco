@@ -5,7 +5,7 @@ const submitForm = () => {
 </script>
 
 <template>
-  <div class="flex flex-col items-center gap-4 py-4">
+  <div id="join-waitlist" class="flex flex-col items-center gap-4 py-4">
     <div class="mx-auto">
       <div
         class="text-2xl rounded-full bg-blue-200 w-10 h-10 flex items-center justify-center"
