@@ -14,11 +14,11 @@
       <div class="h-[calc(100vh-80px)] px-4 md:px-0">
         <div class="flex items-center gap-4 h-full">
           <div class="flex flex-1 flex-col justify-center gap-6">
-            <h2 class="text-5xl font-bold">
+            <h2 class="text-5xl font-bold text-center md:text-left">
               Your Gateway to <br />
               <span class="gradient-text"> Global Markets </span>
             </h2>
-            <p class="text-lg text-gray-500">
+            <p class="text-lg text-gray-500 text-center md:text-left">
               Streamline your international expansion with NOBOCO's Al-driven
               market entry strategies and integrated CRM solutions. Connect with
               the right partners, faster.
