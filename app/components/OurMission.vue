@@ -33,13 +33,31 @@
 
         <Divider />
 
-        <div class="flex flex-col gap-2 pt-12">
+        <div class="flex flex-col gap-2 my-12">
           <p class="text-xl font-semibold text-center md:text-left">
             Core pillars
           </p>
           <p class="text-gray-500 text-center md:text-left">
             How we make it happen:
           </p>
+        </div>
+
+        <div class="flex md:flex-row flex-col gap-6 justify-center">
+          <MissionBox
+            description="Leveraging on-the-ground knowledge to navigate new markets effectively."
+            icon="tabler:message-language"
+            title="Local Expertise"
+          />
+          <MissionBox
+            description="Streamlined processes to ensure efficient, compliant, and rapid market entry."
+            title="Operational Execution"
+            icon="iconoir:language"
+          />
+          <MissionBox
+            description="Data-driven insights to make global expansion predictable and measurable."
+            icon="streamline-ultimate:analytics-board-graph-line"
+            title="Intelligent CRM"
+          />
         </div>
       </div>
     </Container>
