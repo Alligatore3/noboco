@@ -1,4 +1,5 @@
 <style scoped>
+/* @see https://cssgradient.io/blog/css-gradient-text/ */
 .gradient-text {
   background: linear-gradient(to right, #007bff, #00bfff);
   -webkit-background-clip: text;
@@ -8,7 +9,7 @@
 </style>
 
 <template>
-  <section>
+  <section class="relative">
     <Container>
       <div class="h-[calc(100vh-80px)]">
         <div class="flex items-center gap-4 h-full">
