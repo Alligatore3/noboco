@@ -16,26 +16,30 @@
           enterprises ready to expand.
         </p>
 
-        <div class="flex md:flex-row flex-col gap-6 justify-center">
+        <div class="flex md:flex-row flex-wrap flex-col gap-6 justify-center">
           <ShadowBoxWithIcon
             description="Deep dive analysis into target demographics and regulatory landscapes to ensure product-market fit."
             title="Market Research & Fit"
             icon="tabler:world-search"
+            classes="flex-1"
           />
           <ShadowBoxWithIcon
             description="Streamlined business entity setup, legal compliance, and operational infrastructure development."
             title="Incorporation & Ops"
             icon="tabler:building"
+            classes="flex-1"
           />
           <ShadowBoxWithIcon
             description="Establishment of robust distribution channels and direct sales strategies to secure initial revenue."
             icon="tabler:chart-area-line"
             title="Sales & Distribution"
+            classes="flex-1"
           />
           <ShadowBoxWithIcon
             description="Adapting brand messaging and marketing campaigns to resonate with local cultural nuances."
             title="Marketing & Localization"
             icon="tabler:language"
+            classes="flex-1"
           />
         </div>
       </div>
