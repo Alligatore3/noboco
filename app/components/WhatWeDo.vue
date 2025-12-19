@@ -17,22 +17,22 @@
         </p>
 
         <div class="flex md:flex-row flex-col gap-6 justify-center">
-          <MissionBox
+          <ShadowBoxWithIcon
             description="Deep dive analysis into target demographics and regulatory landscapes to ensure product-market fit."
             title="Market Research & Fit"
             icon="tabler:world-search"
           />
-          <MissionBox
+          <ShadowBoxWithIcon
             description="Streamlined business entity setup, legal compliance, and operational infrastructure development."
             title="Incorporation & Ops"
             icon="tabler:building"
           />
-          <MissionBox
+          <ShadowBoxWithIcon
             description="Establishment of robust distribution channels and direct sales strategies to secure initial revenue."
             icon="tabler:chart-area-line"
             title="Sales & Distribution"
           />
-          <MissionBox
+          <ShadowBoxWithIcon
             description="Adapting brand messaging and marketing campaigns to resonate with local cultural nuances."
             title="Marketing & Localization"
             icon="tabler:language"

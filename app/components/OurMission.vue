@@ -43,17 +43,17 @@
         </div>
 
         <div class="flex md:flex-row flex-col gap-6 justify-center">
-          <MissionBox
+          <ShadowBoxWithIcon
             description="Leveraging on-the-ground knowledge to navigate new markets effectively."
             icon="tabler:message-language"
             title="Local Expertise"
           />
-          <MissionBox
+          <ShadowBoxWithIcon
             description="Streamlined processes to ensure efficient, compliant, and rapid market entry."
             title="Operational Execution"
             icon="iconoir:language"
           />
-          <MissionBox
+          <ShadowBoxWithIcon
             description="Data-driven insights to make global expansion predictable and measurable."
             icon="streamline-ultimate:analytics-board-graph-line"
             title="Intelligent CRM"
