@@ -44,7 +44,5 @@
         </div>
       </div>
     </Container>
-
-    <Divider />
   </section>
 </template>

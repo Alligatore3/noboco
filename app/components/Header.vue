@@ -6,6 +6,4 @@
       </div>
     </Container>
   </header>
-
-  <Divider />
 </template>
