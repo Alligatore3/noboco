@@ -3,6 +3,7 @@
     <Header />
     <HomeSection />
     <OurMission />
+    <WhatWeDo />
     <JoinForms />
     <Footer />
   </main>
