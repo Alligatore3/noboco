@@ -12,7 +12,7 @@
   <section class="relative">
     <Container>
       <div class="h-[calc(100vh-80px)] px-4 md:px-0">
-        <div class="flex items-center gap-4 h-full">
+        <div class="flex items-center gap-4 h-full px-4 py-8">
           <div class="flex flex-1 flex-col justify-center gap-6">
             <h2 class="text-5xl font-bold text-center md:text-left">
               Your Gateway to <br />
