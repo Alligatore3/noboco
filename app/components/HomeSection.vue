@@ -26,7 +26,7 @@
 
             <div class="w-full flex gap-2">
               <a
-                href="#join-waitlist"
+                href="#crm"
                 class="rounded-lg text-white bg-blue-700 font-medium leading-5 text-sm px-4 py-2.5 flex-1 md:flex-none text-center"
               >
                 Join waitlist 👉

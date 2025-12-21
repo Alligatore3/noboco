@@ -10,7 +10,7 @@
 </style>
 
 <template>
-  <DottedGradientSection>
+  <DottedGradientSection id="consulting">
     <Container>
       <div class="px-4 py-8">
         <p class="text-blue-500 text-center md:text-left font-bold mb-2">

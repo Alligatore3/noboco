@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer class="mb-12">
     <Container>
       <div class="px-4 py-6">
         <div

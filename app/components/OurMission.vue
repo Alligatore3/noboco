@@ -6,7 +6,7 @@
 </style>
 
 <template>
-  <section class="relative bg-gray-100">
+  <section id="mission" class="relative bg-gray-100">
     <Container>
       <div class="px-4 py-8">
         <div class="flex flex-col md:flex-row gap-6 py-12">
