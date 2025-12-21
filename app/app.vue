@@ -14,6 +14,10 @@
 
     <Divider />
 
+    <BridgeBase />
+
+    <Divider />
+
     <JoinForms />
 
     <Footer />

@@ -5,8 +5,5 @@ export const useHash = () => {
     await router.replace({ hash: undefined });
   };
 
-  return {
-    removeHash,
-  };
+  return { removeHash };
 };
-
