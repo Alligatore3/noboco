@@ -6,6 +6,8 @@ const NAVBAR_HEIGHT = 80;
 const route = useRoute();
 const router = useRouter();
 const isSticky = ref(false);
+//Fixed the hydration mismatch. The issue was that route.hash can differ between server and client during SSR.
+const isClient = ref(false);
 
 const handleScroll = () => {
   isSticky.value = window.scrollY > NAVBAR_HEIGHT;
@@ -25,16 +27,25 @@ const scrollTo = async (id: string) => {
 };
 
 const links = computed(() => [
-  { id: "mission", label: "Mission", isActive: route.hash === `#mission` },
+  {
+    id: "mission",
+    label: "Mission",
+    isActive: isClient.value && route.hash === `#mission`,
+  },
   {
     id: "consulting",
     label: "Consulting",
-    isActive: route.hash === `#consulting`,
+    isActive: isClient.value && route.hash === `#consulting`,
   },
-  { id: "crm", label: "CRM", isActive: route.hash === `#crm` },
+  {
+    id: "crm",
+    label: "CRM",
+    isActive: isClient.value && route.hash === `#crm`,
+  },
 ]);
 
 onMounted(() => {
+  isClient.value = true;
   window.addEventListener("scroll", handleScroll);
   // Check initial scroll position
   handleScroll();
