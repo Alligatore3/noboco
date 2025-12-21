@@ -1,5 +1,11 @@
 <script setup lang="ts">
+import { useHash } from "@/composables/useHash";
+
+const { removeHash } = useHash();
+
 const scrollToTop = () => {
+  removeHash();
+
   window.scrollTo({
     behavior: "smooth",
     top: 0,
