@@ -21,21 +21,31 @@
           <Dashboard />
         </ShadowBox>
 
-        <div class="flex md:flex-row flex-col gap-6 justify-center">
+        <div class="flex md:flex-row flex-col gap-4 justify-center">
           <ShadowBoxWithIcon
-            description="Leveraging on-the-ground knowledge to navigate new markets effectively."
-            icon="tabler:message-language"
-            title="Local Expertise"
+            description="Data-driven market fit analysis powered by advanced Al algorithms."
+            icon="ph:user-circle-gear-bold"
+            title="Al Fit Assessment"
           />
           <ShadowBoxWithIcon
-            description="Streamlined processes to ensure efficient, compliant, and rapid market entry."
-            title="Operational Execution"
-            icon="iconoir:language"
+            description="Navigate local languages and cultural nuances seamlessly."
+            title="Language & Cultural Al Hub"
+            icon="zondicons:translate"
           />
           <ShadowBoxWithIcon
-            description="Data-driven insights to make global expansion predictable and measurable."
-            icon="streamline-ultimate:analytics-board-graph-line"
-            title="Intelligent CRM"
+            description="Create comprehensive market entry reports in seconds."
+            icon="mingcute:document-2-fill"
+            title="Automatic Report Generation"
+          />
+          <ShadowBoxWithIcon
+            description="Centralize and manage your global partner network efficiently."
+            icon="fluent:handshake-20-filled"
+            title="Partner & Deal Management"
+          />
+          <ShadowBoxWithIcon
+            description="A fully licensable platform adapted to your brand needs."
+            icon="iconamoon:shield-yes"
+            title="Licensable Platform"
           />
         </div>
       </div>
