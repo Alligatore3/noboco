@@ -1,25 +1,38 @@
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted } from "vue";
+import { ref, computed, onMounted, onUnmounted } from "vue";
+
 const NAVBAR_HEIGHT = 80;
 
+const route = useRoute();
+const router = useRouter();
 const isSticky = ref(false);
 
 const handleScroll = () => {
   isSticky.value = window.scrollY > NAVBAR_HEIGHT;
 };
 
-const scrollTo = (id: string) => {
+const scrollTo = async (id: string) => {
   const element = document.getElementById(id);
-  if (element) {
-    element.scrollIntoView({ behavior: "smooth" });
-  }
+
+  if (!element) return;
+
+  // Update URL hash using router.replace to keep route.hash reactive
+  // Using replace instead of push to avoid adding history entries
+  await router.replace({ hash: `#${id}` });
+
+  // Perform smooth scroll after hash update
+  element.scrollIntoView({ behavior: "smooth" });
 };
 
-const links = [
-  { id: "consulting", label: "Consulting" },
-  { id: "mission", label: "Mission" },
-  { id: "crm", label: "CRM" },
-];
+const links = computed(() => [
+  { id: "mission", label: "Mission", isActive: route.hash === `#mission` },
+  {
+    id: "consulting",
+    label: "Consulting",
+    isActive: route.hash === `#consulting`,
+  },
+  { id: "crm", label: "CRM", isActive: route.hash === `#crm` },
+]);
 
 onMounted(() => {
   window.addEventListener("scroll", handleScroll);
@@ -45,6 +58,7 @@ onUnmounted(() => {
           <ul class="flex h-full items-center justify-center gap-4">
             <li
               class="text-sm font-medium cursor-pointer"
+              :class="{ 'text-blue-700': link.isActive }"
               v-for="link in links"
               :key="link.id"
             >
