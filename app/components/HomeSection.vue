@@ -15,13 +15,11 @@
         <div class="flex items-center gap-4 h-full px-4 py-8">
           <div class="flex flex-1 flex-col justify-center gap-6">
             <h2 class="text-5xl font-bold text-center md:text-left">
-              Your Gateway to <br />
-              <span class="gradient-text"> Global Markets </span>
+              {{ $t("home.title.part1") }} <br />
+              <span class="gradient-text"> {{ $t("home.title.part2") }} </span>
             </h2>
             <p class="text-lg text-gray-500 text-center md:text-left">
-              Streamline your international expansion with NOBOCO's Al-driven
-              market entry strategies and integrated CRM solutions. Connect with
-              the right partners, faster.
+              {{ $t("home.description") }}
             </p>
 
             <div class="w-full flex gap-2">
@@ -29,13 +27,13 @@
                 href="#crm"
                 class="rounded-lg text-white bg-blue-700 font-medium leading-5 text-sm px-4 py-2.5 flex-1 md:flex-none text-center"
               >
-                Join waitlist 👉
+                {{ $t("home.joinWaitlistButton") }}
               </a>
               <a
                 href="#partner-with-us"
                 class="rounded-lg border font-medium leading-5 text-sm px-4 py-2.5 flex-1 md:flex-none text-center"
               >
-                Partner with us
+                {{ $t("home.partnerWithUsButton") }}
               </a>
             </div>
           </div>

@@ -3,5 +3,14 @@
     "mission": "Mission",
     "consulting": "Consulting",
     "crm": "CRM"
+  },
+  "home": {
+    "title": {
+      "part1": "Your Gateway to",
+      "part2": "Global Markets"
+    },
+    "description": "Streamline your international expansion with NOBOCO's Al-driven market entry strategies and integrated CRM solutions. Connect with the right partners, faster.",
+    "joinWaitlistButton": "Join waitlist 👉",
+    "partnerWithUsButton": "Partner with us"
   }
 }
