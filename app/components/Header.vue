@@ -4,8 +4,11 @@ import { ref, computed, onMounted, onUnmounted } from "vue";
 const NAVBAR_HEIGHT = 80;
 
 const route = useRoute();
+
 const router = useRouter();
+
 const isSticky = ref(false);
+
 //Fixed the hydration mismatch. The issue was that route.hash can differ between server and client during SSR.
 const isClient = ref(false);
 
@@ -29,17 +32,17 @@ const scrollTo = async (id: string) => {
 const links = computed(() => [
   {
     id: "mission",
-    label: "Mission",
+    label: $t("header.mission"),
     isActive: isClient.value && route.hash === `#mission`,
   },
   {
     id: "consulting",
-    label: "Consulting",
+    label: $t("header.consulting"),
     isActive: isClient.value && route.hash === `#consulting`,
   },
   {
     id: "crm",
-    label: "CRM",
+    label: $t("header.crm"),
     isActive: isClient.value && route.hash === `#crm`,
   },
 ]);
