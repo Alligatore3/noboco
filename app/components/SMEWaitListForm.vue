@@ -13,13 +13,13 @@ const submitForm = () => {
         🚀
       </div>
     </div>
-    <h2 class="text-3xl font-semibold text-center">Join the SME Waitlist</h2>
-    <p class="text-sm text-gray-500 text-center">
-      Be one of the first companies to expand globally with NOBOCO and
-      Bridgebase. <br />
-      Gain early access to our market entry tools.
-    </p>
-
+    <h2 class="text-3xl font-semibold text-center">
+      {{ $t("joinForms.smeWaitlist.title") }}
+    </h2>
+    <p
+      class="text-sm text-gray-500 text-center"
+      v-html="$t('joinForms.smeWaitlist.description')"
+    />
     <ShadowBox class="w-full">
       <div class="p-4">
         <form class="flex flex-col gap-4" @submit.prevent="submitForm">
@@ -27,7 +27,7 @@ const submitForm = () => {
             <label
               for="company-name"
               class="block mb-2.5 text-sm font-medium text-heading"
-              >Company name</label
+              >{{ $t("joinForms.smeWaitlist.companyNameLabel") }}</label
             >
             <div class="flex shadow-xs rounded-base">
               <span
@@ -37,7 +37,9 @@ const submitForm = () => {
               </span>
               <input
                 class="rounded-none rounded-e-base block w-full px-3 py-2.5 bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand placeholder:text-body"
-                placeholder="Enter your company name"
+                :placeholder="
+                  $t('joinForms.smeWaitlist.companyNamePlaceholder')
+                "
                 id="company-name"
                 type="text"
                 required
@@ -49,7 +51,7 @@ const submitForm = () => {
             <label
               for="email"
               class="block mb-2.5 text-sm font-medium text-heading"
-              >Email address</label
+              >{{ $t("joinForms.smeWaitlist.emailAddressLabel") }}</label
             >
             <div class="flex shadow-xs rounded-base">
               <span
@@ -67,18 +69,20 @@ const submitForm = () => {
             </div>
           </div>
 
-          <CountriesSelect label="Target market" />
+          <CountriesSelect
+            :label="$t('joinForms.smeWaitlist.targetMarketLabel')"
+          />
 
           <div class="flex flex-col items-center gap-3 py-2">
             <button
               class="mx-auto rounded-lg text-white bg-blue-700 font-medium leading-5 text-sm px-4 py-2.5"
               type="submit"
             >
-              Join waitlist 👉
+              {{ $t("joinForms.smeWaitlist.joinWaitlistButton") }}
             </button>
 
             <p class="text-xs text-gray-500 text-center">
-              We respect your data privacy. No spam, ever.
+              {{ $t("joinForms.smeWaitlist.dataPrivacy") }}
             </p>
           </div>
         </form>

@@ -84,6 +84,22 @@
       }
     }
   },
+  "joinForms": {
+    "smeWaitlist": {
+      "title": "Join the SME Waitlist",
+      "description": "Be one of the first companies to expand globally with NOBOCO and Bridgebase. <br /> Gain early access to our market entry tools.",
+      "companyNameLabel": "Company name",
+      "companyNamePlaceholder": "Enter your company name",
+      "emailAddressLabel": "Email address",
+      "targetMarketLabel": "Target market",
+      "joinWaitlistButton": "Join waitlist 👉",
+      "dataPrivacy": "We respect your data privacy. No spam, ever."
+    },
+    "nobocoPartners": {
+      "title": "Become a NOBOCO Partner (Licensee)",
+      "description": "Be one of the first companies to expand globally with NOBOCO and Bridgebase. <br /> Gain early access to our market entry tools."
+    }
+  },
 
   "footer": {
     "privacyPolicy": "Privacy Policy",
