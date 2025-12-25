@@ -56,5 +56,32 @@
     },
     "helps": "NOBOCO helps companies enter new markets through execution, local partners, and an Al-powered platform — from first analysis to first deal.",
     "bridgebase": "Bridgebase is the technology layer that standardizes and scales the entire process. →"
+  },
+  "bridgeBase": {
+    "title": "Bridgebase - The Market Entry <br /> CRM",
+    "description": "Powered by Al. Built for global expansion.",
+    "description2": "Bridgebase centralizes all your market-entry activities, replacing fragmented spreadsheets with a unified intelligent platform designed for growth.",
+    "features": {
+      "fitAssessment": {
+        "title": "Al Fit Assessment",
+        "description": "Data-driven market fit analysis powered by advanced Al algorithms."
+      },
+      "languageAndCulturalAlHub": {
+        "title": "Language & Cultural Al Hub",
+        "description": "Navigate local languages and cultural nuances seamlessly."
+      },
+      "automaticReportGeneration": {
+        "title": "Automatic Report Generation",
+        "description": "Create comprehensive market entry reports in seconds."
+      },
+      "partnerAndDealManagement": {
+        "title": "Partner & Deal Management",
+        "description": "Centralize and manage your global partner network efficiently."
+      },
+      "licensablePlatform": {
+        "title": "Licensable Platform",
+        "description": "A fully licensable platform adapted to your brand needs."
+      }
+    }
   }
 }

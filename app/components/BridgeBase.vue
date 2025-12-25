@@ -2,19 +2,17 @@
   <section id="crm" class="relative bg-gray-100">
     <Container>
       <div class="px-4 py-8">
-        <h2 class="text-6xl font-bold text-center">
-          Bridgebase - The Market Entry <br />
-          CRM
-        </h2>
+        <h2
+          v-html="$t('bridgeBase.title')"
+          class="text-6xl font-bold text-center"
+        />
 
         <p class="text-xl font-semibold text-center my-4">
-          Powered by Al. Built for global expansion.
+          {{ $t("bridgeBase.description") }}
         </p>
 
         <p class="text-gray-500 text-center px-2 md:px-36">
-          Bridgebase centralizes all your market-entry activities, replacing
-          fragmented spreadsheets with a unified intelligent platform designed
-          for growth.
+          {{ $t("bridgeBase.description2") }}
         </p>
 
         <ShadowBox class="my-16">
@@ -23,29 +21,37 @@
 
         <div class="flex md:flex-row flex-col gap-4 justify-center">
           <ShadowBoxWithIcon
-            description="Data-driven market fit analysis powered by advanced Al algorithms."
+            :description="$t('bridgeBase.features.fitAssessment.description')"
             icon="ph:user-circle-gear-bold"
-            title="Al Fit Assessment"
+            :title="$t('bridgeBase.features.fitAssessment.title')"
           />
           <ShadowBoxWithIcon
-            description="Navigate local languages and cultural nuances seamlessly."
-            title="Language & Cultural Al Hub"
+            :title="$t('bridgeBase.features.languageAndCulturalAlHub.title')"
             icon="zondicons:translate"
+            :description="
+              $t('bridgeBase.features.languageAndCulturalAlHub.description')
+            "
           />
           <ShadowBoxWithIcon
-            description="Create comprehensive market entry reports in seconds."
+            :title="$t('bridgeBase.features.automaticReportGeneration.title')"
             icon="mingcute:document-2-fill"
-            title="Automatic Report Generation"
+            :description="
+              $t('bridgeBase.features.automaticReportGeneration.description')
+            "
           />
           <ShadowBoxWithIcon
-            description="Centralize and manage your global partner network efficiently."
+            :title="$t('bridgeBase.features.partnerAndDealManagement.title')"
             icon="fluent:handshake-20-filled"
-            title="Partner & Deal Management"
+            :description="
+              $t('bridgeBase.features.partnerAndDealManagement.description')
+            "
           />
           <ShadowBoxWithIcon
-            description="A fully licensable platform adapted to your brand needs."
+            :title="$t('bridgeBase.features.licensablePlatform.title')"
             icon="iconamoon:shield-yes"
-            title="Licensable Platform"
+            :description="
+              $t('bridgeBase.features.licensablePlatform.description')
+            "
           />
         </div>
       </div>
