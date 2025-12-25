@@ -97,7 +97,13 @@
     },
     "nobocoPartners": {
       "title": "Become a NOBOCO Partner (Licensee)",
-      "description": "Be one of the first companies to expand globally with NOBOCO and Bridgebase. <br /> Gain early access to our market entry tools."
+      "description": "Bring NOBOCO + Bridgebase to your country and support SMEs locally. <br /> Join our global network of consultants.",
+      "nameCompanyLabel": "Name / Company",
+      "nameCompanyPlaceholder": "Enter your name / company",
+      "emailAddressLabel": "Email address",
+      "countryLabel": "Country",
+      "applyAsPartnerButton": "Apply as a Partner 👉",
+      "dataPrivacy": "We respect your data privacy. No spam, ever."
     }
   },
 

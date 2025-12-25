@@ -14,12 +14,13 @@ const submitForm = () => {
       </div>
     </div>
     <h2 class="text-3xl font-semibold text-center">
-      Become a NOBOCO Partner (Licensee)
+      {{ $t("joinForms.nobocoPartners.title") }}
     </h2>
-    <p class="text-sm text-gray-500 text-center">
-      Bring NOBOCO + Bridgebase to your country and support SMEs locally. <br />
-      Join our global network of consultants.
-    </p>
+
+    <p
+      v-html="$t('joinForms.nobocoPartners.description')"
+      class="text-sm text-gray-500 text-center"
+    />
 
     <ShadowBox class="w-full">
       <div class="p-4">
@@ -28,7 +29,7 @@ const submitForm = () => {
             <label
               for="company-name"
               class="block mb-2.5 text-sm font-medium text-heading"
-              >Name / Company</label
+              >{{ $t("joinForms.nobocoPartners.nameCompanyLabel") }}</label
             >
             <div class="flex shadow-xs rounded-base">
               <span
@@ -38,7 +39,9 @@ const submitForm = () => {
               </span>
               <input
                 class="rounded-none rounded-e-base block w-full px-3 py-2.5 bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand placeholder:text-body"
-                placeholder="Enter your company name"
+                :placeholder="
+                  $t('joinForms.nobocoPartners.nameCompanyPlaceholder')
+                "
                 id="company-name"
                 type="text"
                 required
@@ -50,7 +53,7 @@ const submitForm = () => {
             <label
               for="email"
               class="block mb-2.5 text-sm font-medium text-heading"
-              >Email address</label
+              >{{ $t("joinForms.nobocoPartners.emailAddressLabel") }}</label
             >
             <div class="flex shadow-xs rounded-base">
               <span
@@ -68,18 +71,20 @@ const submitForm = () => {
             </div>
           </div>
 
-          <CountriesSelect label="Country" />
+          <CountriesSelect
+            :label="$t('joinForms.nobocoPartners.countryLabel')"
+          />
 
           <div class="flex flex-col items-center gap-3 py-2">
             <button
               class="mx-auto rounded-lg text-white bg-blue-700 font-medium leading-5 text-sm px-4 py-2.5"
               type="submit"
             >
-              Apply as a Partner 👉
+              {{ $t("joinForms.nobocoPartners.applyAsPartnerButton") }}
             </button>
 
             <p class="text-xs text-gray-500 text-center">
-              We respect your data privacy. No spam, ever.
+              {{ $t("joinForms.nobocoPartners.dataPrivacy") }}
             </p>
           </div>
         </form>
