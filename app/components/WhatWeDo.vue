@@ -14,44 +14,41 @@
     <Container>
       <div class="px-4 py-8">
         <p class="text-blue-500 text-center md:text-left font-bold mb-2">
-          WHAT WE DO
+          {{ $t("whatWeDo.title").toUpperCase() }}
         </p>
         <h2
           class="text-4xl font-bold text-center md:text-left flex-1 relative line-before"
         >
-          Market Entry Consulting for <br />
-          SMES
+          <span v-html="$t('whatWeDo.scope')"></span>
         </h2>
 
-        <p class="text-gray-500 text-center md:text-left mt-6 mb-10">
-          NOBOCO bridges the gap between local ambition and global reality with
-          <br />
-          tailored strategies designed specifically for small and medium <br />
-          enterprises ready to expand.
-        </p>
+        <p
+          v-html="$t('whatWeDo.description')"
+          class="text-gray-500 text-center md:text-left mt-6 mb-10"
+        />
 
         <div class="flex md:flex-row flex-wrap flex-col gap-6 justify-center">
           <ShadowBoxWithIcon
-            description="Deep dive analysis into target demographics and regulatory landscapes to ensure product-market fit."
-            title="Market Research & Fit"
+            :description="$t('whatWeDo.marketResearch.description')"
+            :title="$t('whatWeDo.marketResearch.title')"
             icon="tabler:world-search"
             classes="flex-1"
           />
           <ShadowBoxWithIcon
-            description="Streamlined business entity setup, legal compliance, and operational infrastructure development."
-            title="Incorporation & Ops"
+            :description="$t('whatWeDo.operationalExecution.description')"
+            :title="$t('whatWeDo.operationalExecution.title')"
             icon="tabler:building"
             classes="flex-1"
           />
           <ShadowBoxWithIcon
-            description="Establishment of robust distribution channels and direct sales strategies to secure initial revenue."
+            :description="$t('whatWeDo.salesDistribution.description')"
+            :title="$t('whatWeDo.salesDistribution.title')"
             icon="tabler:chart-area-line"
-            title="Sales & Distribution"
             classes="flex-1"
           />
           <ShadowBoxWithIcon
-            description="Adapting brand messaging and marketing campaigns to resonate with local cultural nuances."
-            title="Marketing & Localization"
+            :description="$t('whatWeDo.marketingLocalization.description')"
+            :title="$t('whatWeDo.marketingLocalization.title')"
             icon="tabler:language"
             classes="flex-1"
           />
@@ -63,14 +60,11 @@
           <h3
             class="text-2xl font-bold text-center md:text-left flex-1 relative line-before"
           >
-            NOBOCO helps companies enter new markets through execution, local
-            partners, and an Al-powered platform — from first analysis to first
-            deal.
+            {{ $t("whatWeDo.helps") }}
           </h3>
 
           <p class="text-center text-blue-500 mt-8 font-semibold">
-            Bridgebase is the technology layer that standardizes and scales the
-            entire process. →
+            {{ $t("whatWeDo.bridgebase") }}
           </p>
         </div>
       </div>

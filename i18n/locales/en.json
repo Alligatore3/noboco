@@ -33,5 +33,28 @@
       "title": "Intelligent CRM",
       "description": "Data-driven insights to make global expansion predictable and measurable."
     }
+  },
+  "whatWeDo": {
+    "title": "What We Do",
+    "scope": "Market Entry Consulting for <br /> SMEs",
+    "description": "NOBOCO bridges the gap between local ambition and global reality with <br /> tailored strategies designed specifically for small and medium <br /> enterprises ready to expand.",
+    "marketResearch": {
+      "title": "Market Research & Fit",
+      "description": "Deep dive analysis into target demographics and regulatory landscapes to ensure product-market fit."
+    },
+    "operationalExecution": {
+      "title": "Operational Execution",
+      "description": "Streamlined processes to ensure efficient, compliant, and rapid market entry."
+    },
+    "salesDistribution": {
+      "title": "Sales & Distribution",
+      "description": "Establishment of robust distribution channels and direct sales strategies to secure initial revenue."
+    },
+    "marketingLocalization": {
+      "title": "Marketing & Localization",
+      "description": "Adapting brand messaging and marketing campaigns to resonate with local cultural nuances."
+    },
+    "helps": "NOBOCO helps companies enter new markets through execution, local partners, and an Al-powered platform — from first analysis to first deal.",
+    "bridgebase": "Bridgebase is the technology layer that standardizes and scales the entire process. →"
   }
 }
