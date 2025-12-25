@@ -83,5 +83,12 @@
         "description": "A fully licensable platform adapted to your brand needs."
       }
     }
+  },
+
+  "footer": {
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "contactUs": "Contact us",
+    "copyright": "© 2026 NOBOCO. All rights reserved."
   }
 }
