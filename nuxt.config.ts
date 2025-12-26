@@ -15,4 +15,12 @@ export default defineNuxtConfig({
       strictMessage: false,
     },
   },
+  app: {
+    head: {
+      title: "NOBOCO",
+      htmlAttrs: {
+        lang: "en",
+      },
+    },
+  },
 });

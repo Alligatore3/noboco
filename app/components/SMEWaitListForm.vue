@@ -75,6 +75,8 @@ const submitForm = () => {
 
           <div class="flex flex-col items-center gap-3 py-2">
             <button
+              aria-label="Join waitlist"
+              title="Join waitlist"
               class="mx-auto rounded-lg text-white bg-blue-700 font-medium leading-5 text-sm px-4 py-2.5"
               type="submit"
             >

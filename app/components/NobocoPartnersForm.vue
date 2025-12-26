@@ -27,7 +27,7 @@ const submitForm = () => {
         <form class="flex flex-col gap-4" @submit.prevent="submitForm">
           <div>
             <label
-              for="company-name"
+              for="name-company"
               class="block mb-2.5 text-sm font-medium text-heading"
               >{{ $t("joinForms.nobocoPartners.nameCompanyLabel") }}</label
             >
@@ -42,7 +42,7 @@ const submitForm = () => {
                 :placeholder="
                   $t('joinForms.nobocoPartners.nameCompanyPlaceholder')
                 "
-                id="company-name"
+                id="name-company"
                 type="text"
                 required
               />
@@ -77,6 +77,8 @@ const submitForm = () => {
 
           <div class="flex flex-col items-center gap-3 py-2">
             <button
+              aria-label="Apply as a partner"
+              title="Apply as a partner"
               class="mx-auto rounded-lg text-white bg-blue-700 font-medium leading-5 text-sm px-4 py-2.5"
               type="submit"
             >

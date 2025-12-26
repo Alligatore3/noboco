@@ -18,7 +18,11 @@ const scrollToTop = () => {
     <div
       class="bg-blue-700 rounded-lg w-8 h-8 flex items-center justify-center"
     >
-      <button @click="scrollToTop">
+      <button
+        aria-label="NOBOCO - Return to top of page"
+        title="Return to top of page"
+        @click="scrollToTop"
+      >
         <Icon name="bx:bxs-planet" class="text-white" />
       </button>
     </div>
