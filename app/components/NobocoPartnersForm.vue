@@ -11,8 +11,8 @@ const submitForm = () => {
   }
 
   generateEmailContent({
+    country: generateCountryLabel(selectModel.value),
     companyName: companyName.value,
-    selectModel: selectModel.value,
     email: email.value,
     context: "partner",
   });

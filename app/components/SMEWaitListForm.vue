@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { generateEmailContent } from "@/utils/generateEmailContent";
+import { generateCountryLabel } from "@/utils/generateCountryLabel";
 
 const companyName = defineModel<string>("companyName");
 const selectModel = defineModel<string>("selectModel");
@@ -11,8 +12,8 @@ const submitForm = () => {
   }
 
   generateEmailContent({
+    country: generateCountryLabel(selectModel.value),
     companyName: companyName.value,
-    selectModel: selectModel.value,
     email: email.value,
   });
 };

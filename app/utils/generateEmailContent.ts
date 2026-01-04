@@ -1,11 +1,11 @@
 export const generateEmailContent = ({
   companyName,
-  selectModel,
+  country,
   email,
   context = "sme",
 }: {
   companyName: string;
-  selectModel: string;
+  country: string;
   email: string;
   context?: "sme" | "partner";
 }) => {
@@ -31,7 +31,7 @@ export const generateEmailContent = ({
       `Here's my info:\n` +
       `• Company: ${companyName}\n` +
       `• Email: ${email}\n` +
-      `• Target Market: ${selectModel}\n\n` +
+      `• Target Market: ${country}\n\n` +
       `${partialBody}\n\n` +
       `Thanks!`
   );

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { countries } from "../../assets/data/countries";
+import { countries } from "@/constants/countries";
 
 const model = defineModel(undefined);
 
