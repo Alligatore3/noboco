@@ -1,6 +1,20 @@
 <script setup lang="ts">
+import { generateEmailContent } from "@/utils/generateEmailContent";
+
+const companyName = defineModel<string>("companyName");
+const selectModel = defineModel<string>("selectModel");
+const email = defineModel<string>("email");
+
 const submitForm = () => {
-  console.log("submitForm");
+  if (!companyName.value || !selectModel.value || !email.value) {
+    return;
+  }
+
+  generateEmailContent({
+    companyName: companyName.value,
+    selectModel: selectModel.value,
+    email: email.value,
+  });
 };
 </script>
 
@@ -40,6 +54,7 @@ const submitForm = () => {
                 :placeholder="
                   $t('joinForms.smeWaitlist.companyNamePlaceholder')
                 "
+                v-model="companyName"
                 id="company-name"
                 type="text"
                 required
@@ -62,6 +77,7 @@ const submitForm = () => {
               <input
                 class="rounded-none rounded-e-base block w-full px-3 py-2.5 bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand placeholder:text-body"
                 placeholder="name@company.com"
+                v-model="email"
                 type="email"
                 id="email"
                 required
@@ -71,6 +87,7 @@ const submitForm = () => {
 
           <CountriesSelect
             :label="$t('joinForms.smeWaitlist.targetMarketLabel')"
+            v-model="selectModel"
           />
 
           <div class="flex flex-col items-center gap-3 py-2">
