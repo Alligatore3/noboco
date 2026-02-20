@@ -1,0 +1,116 @@
+{
+  "header": {
+    "mission": "Mission - JP",
+    "consulting": "Consulting - JP",
+    "crm": "CRM - JP"
+  },
+  "home": {
+    "title": {
+      "part1": "Your Gateway to",
+      "part2": "Global Markets"
+    },
+    "description": "Streamline your international expansion with NOBOCO's Al-driven market entry strategies and integrated CRM solutions. Connect with the right partners, faster.",
+    "joinWaitlistButton": "Join waitlist 👉",
+    "partnerWithUsButton": "Partner with us"
+  },
+  "mission": {
+    "title": "Our Mission",
+    "scale": "Standardize and scale global market entry.",
+    "description": "We believe international expansion should not depend on luck, personal networks, or ad-hoc consulting. NOBOCO makes global growth predictable, operational, and scalable — for companies and partners alike.",
+    "corePillars": {
+      "title": "Core pillars",
+      "description": "How we make it happen:"
+    },
+    "localExpertise": {
+      "title": "Local Expertise",
+      "description": "Leveraging on-the-ground knowledge to navigate new markets effectively."
+    },
+    "operationalExecution": {
+      "title": "Operational Execution",
+      "description": "Streamlined processes to ensure efficient, compliant, and rapid market entry."
+    },
+    "intelligentCRM": {
+      "title": "Intelligent CRM",
+      "description": "Data-driven insights to make global expansion predictable and measurable."
+    }
+  },
+  "whatWeDo": {
+    "title": "What We Do",
+    "scope": "Market Entry Consulting for <br /> SMEs",
+    "description": "NOBOCO bridges the gap between local ambition and global reality with <br /> tailored strategies designed specifically for small and medium <br /> enterprises ready to expand.",
+    "marketResearch": {
+      "title": "Market Research & Fit",
+      "description": "Deep dive analysis into target demographics and regulatory landscapes to ensure product-market fit."
+    },
+    "operationalExecution": {
+      "title": "Operational Execution",
+      "description": "Streamlined processes to ensure efficient, compliant, and rapid market entry."
+    },
+    "salesDistribution": {
+      "title": "Sales & Distribution",
+      "description": "Establishment of robust distribution channels and direct sales strategies to secure initial revenue."
+    },
+    "marketingLocalization": {
+      "title": "Marketing & Localization",
+      "description": "Adapting brand messaging and marketing campaigns to resonate with local cultural nuances."
+    },
+    "helps": "NOBOCO helps companies enter new markets through execution, local partners, and an Al-powered platform — from first analysis to first deal.",
+    "bridgebase": "Bridgebase is the technology layer that standardizes and scales the entire process. →"
+  },
+  "bridgeBase": {
+    "title": "Bridgebase - The Market Entry <br /> CRM",
+    "description": "Powered by Al. Built for global expansion.",
+    "description2": "Bridgebase centralizes all your market-entry activities, replacing fragmented spreadsheets with a unified intelligent platform designed for growth.",
+    "features": {
+      "fitAssessment": {
+        "title": "Al Fit Assessment",
+        "description": "Data-driven market fit analysis powered by advanced Al algorithms."
+      },
+      "languageAndCulturalAlHub": {
+        "title": "Language & Cultural Al Hub",
+        "description": "Navigate local languages and cultural nuances seamlessly."
+      },
+      "automaticReportGeneration": {
+        "title": "Automatic Report Generation",
+        "description": "Create comprehensive market entry reports in seconds."
+      },
+      "partnerAndDealManagement": {
+        "title": "Partner & Deal Management",
+        "description": "Centralize and manage your global partner network efficiently."
+      },
+      "licensablePlatform": {
+        "title": "Licensable Platform",
+        "description": "A fully licensable platform adapted to your brand needs."
+      }
+    }
+  },
+  "joinForms": {
+    "smeWaitlist": {
+      "title": "Join the SME Waitlist",
+      "description": "Be one of the first companies to expand globally with NOBOCO and Bridgebase. <br /> Gain early access to our market entry tools.",
+      "companyNameLabel": "Company name",
+      "companyNamePlaceholder": "Enter your company name",
+      "emailAddressLabel": "Email address",
+      "targetMarketLabel": "Target market",
+      "joinWaitlistButton": "Join waitlist 👉",
+      "dataPrivacy": "We respect your data privacy. No spam, ever."
+    },
+    "nobocoPartners": {
+      "title": "Become a NOBOCO Partner (Licensee)",
+      "description": "Bring NOBOCO + Bridgebase to your country and support SMEs locally. <br /> Join our global network of consultants.",
+      "nameCompanyLabel": "Name / Company",
+      "nameCompanyPlaceholder": "Enter your name / company",
+      "emailAddressLabel": "Email address",
+      "countryLabel": "Country",
+      "applyAsPartnerButton": "Apply as a Partner 👉",
+      "dataPrivacy": "We respect your data privacy. No spam, ever."
+    }
+  },
+
+  "footer": {
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "contactUs": "Contact us",
+    "copyright": "© 2026 NOBOCO. All rights reserved."
+  }
+}

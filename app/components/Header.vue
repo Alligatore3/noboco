@@ -80,6 +80,8 @@ onUnmounted(() => {
             </li>
           </ul>
         </nav>
+
+        <LanguageSwitch />
       </div>
     </Container>
 
