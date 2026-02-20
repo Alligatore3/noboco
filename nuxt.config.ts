@@ -12,10 +12,16 @@ export default defineNuxtConfig({
     defaultLocale: "en",
     locales: [
       { code: "en", name: "🇬🇧 English", file: "en.json" },
-      { code: "jp", name: "🇯🇵 Japanese", file: "jp.json" },
+      { code: "ja", name: "🇯🇵 Japanese", file: "jp.json" },
     ],
     compilation: {
       strictMessage: false,
+    },
+    // Enable browser language detection (override defaultLocale when possible)
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: "i18n_redirected",
+      redirectOn: "root", // only detect on '/' (recommended for SEO)
     },
   },
   app: {
