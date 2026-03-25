@@ -27,6 +27,9 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: "NOBOCO",
+      link: [
+        { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
+      ],
       htmlAttrs: {
         lang: "en",
       },
