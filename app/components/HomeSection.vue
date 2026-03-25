@@ -8,7 +8,7 @@
 }
 
 .bg-city-background {
-  background-image: url("https://img1.wsimg.com/isteam/ip/84f5dd33-c7c4-44a4-af12-42b8a55a4334/pexels-stephen-alicia-1315397-3063411.jpg");
+  background-image: url("/images/bg.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
