@@ -84,6 +84,11 @@
       }
     }
   },
+  "exploreMarkets": {
+    "title": "Explore Our Market Entry One-Shot Services",
+    "description": "We offer a structured set of services designed to support companies at every stage of market entry — from initial assessment to execution and growth. <br /> <br /> Our approach combines strategic advisory, market analysis, and operational support into a clear and scalable system, allowing you to move from idea to market with confidence. <br /> Each service is designed to be modular and actionable, giving you the flexibility to start where you need and expand as your project evolves.",
+    "serviceMenu": "View Full Service Menu"
+  },
   "joinForms": {
     "smeWaitlist": {
       "title": "Join the SME Waitlist",

@@ -27,6 +27,10 @@ useSeoMeta({
 
     <Divider />
 
+    <ExploreMarkets />
+
+    <Divider />
+
     <JoinForms />
 
     <Footer />
