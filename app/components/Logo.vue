@@ -14,19 +14,7 @@ const scrollToTop = () => {
 </script>
 
 <template>
-  <div class="flex items-center gap-2">
-    <div
-      class="bg-blue-700 rounded-lg w-8 h-8 flex items-center justify-center"
-    >
-      <button
-        aria-label="NOBOCO - Return to top of page"
-        title="Return to top of page"
-        @click="scrollToTop"
-      >
-        <Icon name="bx:bxs-planet" class="text-white" />
-      </button>
-    </div>
-
-    <h1 class="text-xl font-bold">NOBOCO</h1>
-  </div>
+  <h1 class="text-xl font-bold cursor-pointer">
+    <NuxtLink @click="scrollToTop">NOBOCO</NuxtLink>
+  </h1>
 </template>
