@@ -14,7 +14,12 @@ const scrollToTop = () => {
 </script>
 
 <template>
-  <h1 class="text-xl font-bold cursor-pointer">
-    <NuxtLink @click="scrollToTop">NOBOCO</NuxtLink>
-  </h1>
+  <div class="flex flex-col items-center gap-1">
+    <h1 class="text-xl font-bold cursor-pointer">
+      <NuxtLink @click="scrollToTop">NOBOCO</NuxtLink>
+    </h1>
+    <h3 class="text-xs font-bold cursor-pointer">
+      <NuxtLink @click="scrollToTop">NO BORDER CONSULTING</NuxtLink>
+    </h3>
+  </div>
 </template>
