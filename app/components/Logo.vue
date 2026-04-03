@@ -13,13 +13,16 @@ const scrollToTop = () => {
 };
 </script>
 
+<style scoped>
+h1 {
+  font-family:
+    "Gotham", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+</style>
+
 <template>
-  <div class="flex flex-col items-center gap-1">
-    <h1 class="text-xl font-bold cursor-pointer">
-      <NuxtLink @click="scrollToTop">NOBOCO</NuxtLink>
-    </h1>
-    <h3 class="text-xs font-bold cursor-pointer">
-      <NuxtLink @click="scrollToTop">NO BORDER CONSULTING</NuxtLink>
-    </h3>
-  </div>
+  <h1 class="text-xl font-bold cursor-pointer">
+    <NuxtLink @click="scrollToTop">NOBOCO</NuxtLink>
+  </h1>
 </template>
