@@ -2,7 +2,10 @@
   "header": {
     "mission": "Mission - JP",
     "consulting": "Consulting - JP",
-    "crm": "CRM - JP"
+    "crm": "CRM - JP",
+    "openMenu": "メニューを開く",
+    "closeMenu": "メニューを閉じる",
+    "mobileNavLabel": "サイト内ナビゲーション"
   },
   "home": {
     "title": {
