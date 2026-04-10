@@ -1,119 +1,118 @@
 {
   "header": {
-    "mission": "Mission - JP",
-    "consulting": "Consulting - JP",
-    "crm": "CRM - JP",
+    "mission": "ミッション",
+    "consulting": "コンサルティング",
+    "crm": "CRM",
     "openMenu": "メニューを開く",
     "closeMenu": "メニューを閉じる",
-    "mobileNavLabel": "サイト内ナビゲーション"
+    "mobileNavLabel": "サイトナビゲーション"
   },
   "home": {
     "title": {
-      "part1": "Your Gateway to",
-      "part2": "Global Markets"
+      "part1": "海外展開を、",
+      "part2": "確実に。"
     },
-    "description": "Streamline your international expansion with NOBOCO's Al-driven market entry strategies and integrated CRM solutions. Connect with the right partners, faster.",
-    "joinWaitlistButton": "Join waitlist 👉",
-    "partnerWithUsButton": "Partner with us"
+    "description": "NOBOCOは、AIと実行支援を組み合わせた市場参入ソリューションにより、海外展開をより確実かつ効率的に実現します。最適なパートナーとの連携をスピーディーに構築します。",
+    "joinWaitlistButton": "先行登録はこちら 👉",
+    "partnerWithUsButton": "パートナー募集"
   },
   "mission": {
-    "title": "Our Mission",
-    "scale": "Standardize and scale global market entry.",
-    "description": "We believe international expansion should not depend on luck, personal networks, or ad-hoc consulting. NOBOCO makes global growth predictable, operational, and scalable — for companies and partners alike.",
+    "title": "ミッション",
+    "scale": "海外市場参入を、再現性のあるプロセスへ。",
+    "description": "海外展開はこれまで、個人のネットワークや属人的な経験に依存しがちでした。NOBOCOはそれを仕組み化し、企業とパートナー双方にとって、再現性があり、実行可能で、持続的に拡張できるモデルへと転換します。",
     "corePillars": {
-      "title": "Core pillars",
-      "description": "How we make it happen:"
+      "title": "3つの柱",
+      "description": "NOBOCOが提供する価値："
     },
     "localExpertise": {
-      "title": "Local Expertise",
-      "description": "Leveraging on-the-ground knowledge to navigate new markets effectively."
+      "title": "現地知見",
+      "description": "各市場に精通したパートナーと連携し、実務レベルでの意思決定を支援します。"
     },
     "operationalExecution": {
-      "title": "Operational Execution",
-      "description": "Streamlined processes to ensure efficient, compliant, and rapid market entry."
+      "title": "実行支援",
+      "description": "戦略だけでなく、実行までを一貫して支援し、スピードと確実性を両立します。"
     },
     "intelligentCRM": {
-      "title": "Intelligent CRM",
-      "description": "Data-driven insights to make global expansion predictable and measurable."
+      "title": "データ活用",
+      "description": "データとAIを活用し、意思決定を可視化・最適化します。"
     }
   },
   "whatWeDo": {
-    "title": "What We Do",
-    "scope": "Market Entry Consulting for <br /> SMEs",
-    "description": "NOBOCO bridges the gap between local ambition and global reality with <br /> tailored strategies designed specifically for small and medium <br /> enterprises ready to expand.",
+    "title": "サービス概要",
+    "scope": "中小企業向け<br />海外市場参入支援",
+    "description": "NOBOCOは、中小企業の海外展開における戦略立案から実行までを一気通貫で支援します。現地パートナーとテクノロジーを組み合わせ、実務レベルでの成果創出を目指します。",
     "marketResearch": {
-      "title": "Market Research & Fit",
-      "description": "Deep dive analysis into target demographics and regulatory landscapes to ensure product-market fit."
+      "title": "市場調査・適合性分析",
+      "description": "市場規模、競合、規制環境を分析し、参入可能性と成功確率を評価します。"
     },
     "operationalExecution": {
-      "title": "Operational Execution",
-      "description": "Streamlined processes to ensure efficient, compliant, and rapid market entry."
+      "title": "実行支援",
+      "description": "現地でのオペレーション構築・進行管理を行い、スムーズな立ち上げを実現します。"
     },
     "salesDistribution": {
-      "title": "Sales & Distribution",
-      "description": "Establishment of robust distribution channels and direct sales strategies to secure initial revenue."
+      "title": "営業・販路構築",
+      "description": "販売チャネルの構築と初期顧客の獲得を支援します。"
     },
     "marketingLocalization": {
-      "title": "Marketing & Localization",
-      "description": "Adapting brand messaging and marketing campaigns to resonate with local cultural nuances."
+      "title": "マーケティング・ローカライズ",
+      "description": "現地市場に適したブランド・メッセージ設計と施策展開を行います。"
     },
-    "helps": "NOBOCO helps companies enter new markets through execution, local partners, and an Al-powered platform — from first analysis to first deal.",
-    "bridgebase": "Bridgebase is the technology layer that standardizes and scales the entire process. →"
+    "helps": "NOBOCOは、初期分析から最初の取引成立まで、海外市場参入を一貫して支援します。",
+    "bridgebase": "Bridgebaseは、これらのプロセスを標準化し、効率的に管理するためのプラットフォームです。→"
   },
   "bridgeBase": {
-    "title": "Bridgebase - The Market Entry <br /> CRM",
-    "description": "Powered by Al. Built for global expansion.",
-    "description2": "Bridgebase centralizes all your market-entry activities, replacing fragmented spreadsheets with a unified intelligent platform designed for growth.",
+    "title": "Bridgebase - 海外展開支援CRM",
+    "description": "AI活用による統合プラットフォーム",
+    "description2": "Bridgebaseは、海外市場参入に関わるすべてのプロセスを一元管理し、分散した情報を統合。意思決定のスピードと精度を高めます。",
     "features": {
       "fitAssessment": {
-        "title": "Al Fit Assessment",
-        "description": "Data-driven market fit analysis powered by advanced Al algorithms."
+        "title": "AI適合性診断",
+        "description": "市場との適合性をデータに基づいて分析し、参入判断を支援します。"
       },
       "languageAndCulturalAlHub": {
-        "title": "Language & Cultural Al Hub",
-        "description": "Navigate local languages and cultural nuances seamlessly."
+        "title": "言語・文化対応支援",
+        "description": "言語や文化の違いによるリスクを軽減します。"
       },
       "automaticReportGeneration": {
-        "title": "Automatic Report Generation",
-        "description": "Create comprehensive market entry reports in seconds."
+        "title": "レポート自動生成",
+        "description": "市場分析レポートを迅速に作成可能。"
       },
       "partnerAndDealManagement": {
-        "title": "Partner & Deal Management",
-        "description": "Centralize and manage your global partner network efficiently."
+        "title": "パートナー・案件管理",
+        "description": "海外パートナーや案件情報を一元管理します。"
       },
       "licensablePlatform": {
-        "title": "Licensable Platform",
-        "description": "A fully licensable platform adapted to your brand needs."
+        "title": "ライセンス展開可能",
+        "description": "各国での展開に対応した柔軟なプラットフォーム設計。"
       }
     }
   },
   "joinForms": {
     "smeWaitlist": {
-      "title": "Join the SME Waitlist",
-      "description": "Be one of the first companies to expand globally with NOBOCO and Bridgebase. <br /> Gain early access to our market entry tools.",
-      "companyNameLabel": "Company name",
-      "companyNamePlaceholder": "Enter your company name",
-      "emailAddressLabel": "Email address",
-      "targetMarketLabel": "Target market",
-      "joinWaitlistButton": "Join waitlist 👉",
-      "dataPrivacy": "We respect your data privacy. No spam, ever."
+      "title": "先行登録（企業向け）",
+      "description": "NOBOCOおよびBridgebaseを活用した海外展開支援にご関心のある企業様は、ぜひご登録ください。優先的にご案内いたします。",
+      "companyNameLabel": "会社名",
+      "companyNamePlaceholder": "会社名をご入力ください",
+      "emailAddressLabel": "メールアドレス",
+      "targetMarketLabel": "進出予定市場",
+      "joinWaitlistButton": "先行登録 👉",
+      "dataPrivacy": "ご入力いただいた情報は適切に管理し、第三者へ提供することはありません。"
     },
     "nobocoPartners": {
-      "title": "Become a NOBOCO Partner (Licensee)",
-      "description": "Bring NOBOCO + Bridgebase to your country and support SMEs locally. <br /> Join our global network of consultants.",
-      "nameCompanyLabel": "Name / Company",
-      "nameCompanyPlaceholder": "Enter your name / company",
-      "emailAddressLabel": "Email address",
-      "countryLabel": "Country",
-      "applyAsPartnerButton": "Apply as a Partner 👉",
-      "dataPrivacy": "We respect your data privacy. No spam, ever."
+      "title": "パートナー募集（ライセンシー）",
+      "description": "NOBOCOおよびBridgebaseを各国で展開し、現地企業の海外進出を支援いただけるパートナーを募集しています。",
+      "nameCompanyLabel": "氏名 / 会社名",
+      "nameCompanyPlaceholder": "氏名または会社名をご入力ください",
+      "emailAddressLabel": "メールアドレス",
+      "countryLabel": "所在国",
+      "applyAsPartnerButton": "パートナー応募 👉",
+      "dataPrivacy": "ご入力いただいた情報は適切に管理し、第三者へ提供することはありません。"
     }
   },
-
   "footer": {
-    "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service",
-    "contactUs": "Contact us",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約",
+    "contactUs": "お問い合わせ",
     "copyright": "© 2026 NOBOCO. All rights reserved."
   }
 }
