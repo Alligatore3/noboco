@@ -1,124 +1,510 @@
 {
-  "header": {
-    "mission": "Mission",
+  "nav": {
+    "home": "Home",
     "consulting": "Consulting",
-    "crm": "CRM",
+    "bridgebase": "Bridgebase",
+    "partners": "International Partners",
+    "investors": "Investors",
+    "contact": "Contact",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
-    "mobileNavLabel": "Site navigation"
+    "menuLabel": "Site navigation"
   },
   "home": {
-    "title": {
-      "part1": "Your Gateway to",
-      "part2": "Global Markets"
+    "seo": {
+      "title": "NOBOCO — The OS for Global Expansion",
+      "description": "NOBOCO combines AI, software, methodology, and local expertise to transform international expansion into a repeatable and scalable process."
     },
-    "description": "Streamline your international expansion with NOBOCO's Al-driven market entry strategies and integrated CRM solutions. Connect with the right partners, faster.",
-    "joinWaitlistButton": "Join waitlist 👉",
-    "partnerWithUsButton": "Partner with us"
-  },
-  "mission": {
-    "title": "Our Mission",
-    "scale": "Standardize and scale global market entry.",
-    "description": "We believe international expansion should not depend on luck, personal networks, or ad-hoc consulting. NOBOCO makes global growth predictable, operational, and scalable — for companies and partners alike.",
-    "corePillars": {
-      "title": "Core pillars",
-      "description": "How we make it happen:"
+    "hero": {
+      "eyebrow": "The Executive Sovereign OS",
+      "title": "Building the Operating System for <span class=\"text-tertiary\">SME Global Expansion</span>",
+      "description": "NOBOCO combines AI, software, methodology, and local expertise to transform international expansion into a repeatable and scalable process.",
+      "cta": "Book a Consultation"
     },
-    "localExpertise": {
-      "title": "Local Expertise",
-      "description": "Leveraging on-the-ground knowledge to navigate new markets effectively."
+    "dashboard": {
+      "title": "Bridgebase Command",
+      "aiFitCheck": "AI FIT CHECK",
+      "marketResearch": "MARKET RESEARCH",
+      "marketResearchValue": "Brazil (LATAM)",
+      "strategicTier": "Strategic Tier A",
+      "kpiTracking": "KPI REAL-TIME TRACKING",
+      "partnerNetwork": "Partner Network: Active",
+      "verifiedNodes": "8 Verified Nodes"
     },
-    "operationalExecution": {
-      "title": "Operational Execution",
-      "description": "Streamlined processes to ensure efficient, compliant, and rapid market entry."
+    "trust": {
+      "projects": "Active Projects",
+      "countries": "Countries Covered",
+      "partners": "Partner Networks"
     },
-    "intelligentCRM": {
-      "title": "Intelligent CRM",
-      "description": "Data-driven insights to make global expansion predictable and measurable."
+    "problem": {
+      "title": "International Expansion Is Harder Than It Should Be",
+      "start": {
+        "title": "You Don't Know Where To Start",
+        "description": "Analysis paralysis in choosing the right market often leads to expensive pivots later."
+      },
+      "partner": {
+        "title": "You Can't Find The Right Partner",
+        "description": "Local vetting is slow and high-risk without a pre-verified global ecosystem."
+      },
+      "cost": {
+        "title": "Every Market Entry Costs Too Much",
+        "description": "Traditional consulting fees eat your expansion budget before you've even launched."
+      },
+      "time": {
+        "title": "You've Already Lost Time",
+        "description": "Your competitors are scaling while you navigate bureaucratic paperwork and silos."
+      }
+    },
+    "about": {
+      "title": "Built by People Who Did It the Hard Way",
+      "operator": {
+        "title": "Operator Founded",
+        "description": "Built by professionals with firsthand experience in international business and market entry."
+      },
+      "methodology": {
+        "title": "Methodology Driven",
+        "description": "A structured methodology designed to make international expansion repeatable and measurable."
+      },
+      "connected": {
+        "title": "Globally Connected",
+        "description": "A growing ecosystem of partners and specialists supporting expansion across multiple markets."
+      },
+      "technology": {
+        "title": "Technology Enabled",
+        "description": "Building Bridgebase, the platform powering the future of international expansion."
+      }
+    },
+    "framework": {
+      "title": "The Framework Behind Every Expansion",
+      "steps": {
+        "ideation": "Ideation",
+        "marketFit": "Market Fit",
+        "strategy": "Strategy",
+        "setup": "Setup",
+        "compliance": "Compliance",
+        "execution": "Execution",
+        "growth": "Growth",
+        "scale": "Scale"
+      }
+    },
+    "engine": {
+      "eyebrow": "Our Proprietary Engine",
+      "title": "Meet Bridgebase",
+      "intelligence": {
+        "title": "Market Intelligence",
+        "description": "Real-time data feeds and AI-driven market scoring based on your specific industry KPIs."
+      },
+      "documents": {
+        "title": "Document Generation",
+        "description": "Automated creation of local contracts, compliance papers, and market entry playbooks."
+      },
+      "matching": {
+        "title": "Partner Matching",
+        "description": "Algorithmic matching with vetted local partners based on past project performance."
+      },
+      "dashboard": {
+        "title": "Project Dashboard",
+        "description": "One source of truth for all cross-border milestones, communication, and KPI tracking."
+      }
+    },
+    "ecosystem": {
+      "title": "Global Expansion Ecosystem",
+      "hq": "NOBOCO HQ",
+      "partners": "Partners",
+      "smes": "Client SMEs",
+      "description": "Our architecture connects centralized strategy with localized execution, allowing SMEs to operate with the agility of a startup and the infrastructure of a multinational."
+    },
+    "vision": "\"Become the Global <span class=\"text-tertiary\">Operating System</span> for International Expansion\"",
+    "finalCta": {
+      "title": "Ready to Enter Your Next Market?",
+      "button": "Book Consultation"
     }
   },
-  "whatWeDo": {
-    "title": "What We Do",
-    "scope": "Market Entry Consulting for <br /> SMEs",
-    "description": "NOBOCO bridges the gap between local ambition and global reality with <br /> tailored strategies designed specifically for small and medium <br /> enterprises ready to expand.",
-    "marketResearch": {
-      "title": "Market Research & Fit",
-      "description": "Deep dive analysis into target demographics and regulatory landscapes to ensure product-market fit."
+  "consulting": {
+    "seo": {
+      "title": "Consulting — NOBOCO",
+      "description": "A repeatable methodology for entering foreign markets, designed for high-growth SMEs and enterprises navigating the complexities of global commerce."
     },
-    "operationalExecution": {
-      "title": "Operational Execution",
-      "description": "Streamlined processes to ensure efficient, compliant, and rapid market entry."
+    "hero": {
+      "eyebrow": "Executive Advisory",
+      "title": "International Expansion, <span class=\"text-tertiary italic\">Structured.</span>",
+      "description": "A repeatable methodology for entering foreign markets, designed for high-growth SMEs and enterprises navigating the complexities of global commerce.",
+      "cta": "Book Consultation"
     },
-    "salesDistribution": {
-      "title": "Sales & Distribution",
-      "description": "Establishment of robust distribution channels and direct sales strategies to secure initial revenue."
+    "services": {
+      "title": "Core Consulting Services",
+      "subtitle": "Our end-to-end framework covers every tactical and strategic layer required for a successful market entry.",
+      "pillarLabel": "01 / CORE PILLARS",
+      "strategy": {
+        "title": "Market Entry Strategy",
+        "description": "Comprehensive blueprints for market selection, mode of entry, and resource allocation."
+      },
+      "research": {
+        "title": "Market Research",
+        "description": "Data-driven deep dives into consumer behavior, local trends, and demand forecasting."
+      },
+      "distributor": {
+        "title": "Distributor Search",
+        "description": "Vetting and selecting local distribution partners through our proprietary global network."
+      },
+      "scouting": {
+        "title": "Partner Scouting",
+        "description": "Identifying strategic alliances and JV partners to accelerate localized growth."
+      },
+      "localization": {
+        "title": "Localization",
+        "description": "Adapting brand identity, product offerings, and messaging for local cultural relevance."
+      },
+      "bizdev": {
+        "title": "Business Development",
+        "description": "Active pipeline building and sales representation in new territories."
+      },
+      "marketing": {
+        "title": "Digital Marketing",
+        "description": "Performance marketing strategies tailored to local platforms and search engines."
+      },
+      "pm": {
+        "title": "Project Management",
+        "description": "Overseeing the full execution lifecycle of expansion initiatives with rigour."
+      }
     },
-    "marketingLocalization": {
-      "title": "Marketing & Localization",
-      "description": "Adapting brand messaging and marketing campaigns to resonate with local cultural nuances."
+    "oneShot": {
+      "title": "Start Small. Validate Fast.",
+      "subtitle": "Modular, one-time deliverables to test market hypotheses without the full commitment of a retainer.",
+      "fit": {
+        "tag": "Rapid",
+        "title": "AI Fit Check",
+        "description": "Machine learning analysis of product-market fit across 12 target jurisdictions in 48 hours."
+      },
+      "gtm": {
+        "tag": "Blueprint",
+        "title": "GTM Plan",
+        "description": "A comprehensive, ready-to-execute Go-To-Market strategy for a single specific country."
+      },
+      "target": {
+        "tag": "Network",
+        "title": "Target List",
+        "description": "A verified list of top 50 local distributors or partners with warm introduction paths."
+      }
     },
-    "helps": "NOBOCO helps companies enter new markets through execution, local partners, and an Al-powered platform — from first analysis to first deal.",
-    "bridgebase": "Bridgebase is the technology layer that standardizes and scales the entire process. →"
+    "process": {
+      "discovery": {
+        "title": "Discovery",
+        "description": "Internal assessment and objective alignment."
+      },
+      "research": {
+        "title": "Research",
+        "description": "Hard data collection and market mapping."
+      },
+      "matching": {
+        "title": "Matching",
+        "description": "Local partner vetting and initial outreach."
+      },
+      "structuring": {
+        "title": "Structuring",
+        "description": "Legal frameworks and deal optimization."
+      },
+      "launch": {
+        "title": "Launch",
+        "description": "Execution oversight and market entry."
+      }
+    },
+    "industries": {
+      "title": "Sector Expertise",
+      "food": {
+        "title": "Food & Beverage",
+        "description": "Scaling consumer brands across global retail and Horeca channels."
+      },
+      "fashion": {
+        "title": "Fashion & Cosmetics",
+        "description": "Navigating complex logistics and brand positioning in premium markets."
+      },
+      "industrial": {
+        "title": "Industrial & Mfg",
+        "description": "Supply chain optimization and technical partnership building."
+      },
+      "saas": {
+        "title": "Services & SaaS",
+        "description": "Cloud scalability and cross-border digital service implementation."
+      }
+    },
+    "cta": {
+      "title": "Ready to expand your <span class=\"text-tertiary italic\">sovereignty?</span>",
+      "description": "Join the other brands that have leveraged NOBOCO's methodology for expanding their international presence.",
+      "button": "Inquire Now"
+    }
   },
-  "bridgeBase": {
-    "title": "Bridgebase - The Market Entry <br /> CRM",
-    "description": "Powered by Al. Built for global expansion.",
-    "description2": "Bridgebase centralizes all your market-entry activities, replacing fragmented spreadsheets with a unified intelligent platform designed for growth.",
-    "features": {
-      "fitAssessment": {
-        "title": "Al Fit Assessment",
-        "description": "Data-driven market fit analysis powered by advanced Al algorithms."
+  "bridgebase": {
+    "seo": {
+      "title": "Bridgebase — NOBOCO",
+      "description": "Orchestrate complex global growth through a unified intelligence layer. Bridgebase is the infrastructure for the borderless SME."
+    },
+    "hero": {
+      "eyebrow": "NEXT-GEN OPERATING SYSTEM",
+      "title": "Bridgebase: The Operating System for <span class=\"text-tertiary\">International Expansion</span>.",
+      "description": "Orchestrate complex global growth through a unified intelligence layer. From market selection to autonomous workflows, Bridgebase is the infrastructure for the borderless SME.",
+      "mockTitle": "Expansion Overview"
+    },
+    "positioning": {
+      "line1": "Most CRMs manage customers.",
+      "line2": "Bridgebase manages expansion.",
+      "description": "While traditional platforms focus on internal sales cycles, Bridgebase bridges the external gap between local capability and global opportunity."
+    },
+    "modules": {
+      "title": "Expansion Modules",
+      "subtitle": "The core building blocks of your international growth engine.",
+      "fitCheck": {
+        "title": "AI Fit Check",
+        "description": "Advanced algorithmic scoring of market compatibility based on fiscal data, regulatory climate, and local demand signals.",
+        "link": "Explore Analysis →"
       },
-      "languageAndCulturalAlHub": {
-        "title": "Language & Cultural Al Hub",
-        "description": "Navigate local languages and cultural nuances seamlessly."
+      "research": {
+        "title": "Research Workspace",
+        "description": "Centralized hub for competitive intelligence and local market trends."
       },
-      "automaticReportGeneration": {
-        "title": "Automatic Report Generation",
-        "description": "Create comprehensive market entry reports in seconds."
+      "plan": {
+        "title": "Plan Builder",
+        "description": "Automated creation of localized business models and executive summaries."
       },
-      "partnerAndDealManagement": {
-        "title": "Partner & Deal Management",
-        "description": "Centralize and manage your global partner network efficiently."
+      "proposal": {
+        "title": "Proposal Generator",
+        "description": "Dynamic multi-currency proposal generation for local stakeholders."
       },
-      "licensablePlatform": {
-        "title": "Licensable Platform",
-        "description": "A fully licensable platform adapted to your brand needs."
+      "gtm": {
+        "title": "GTM Planner",
+        "description": "Strategic go-to-market orchestration with automated milestone tracking and resource allocation across regions."
+      },
+      "project": {
+        "title": "Project Workspace",
+        "description": "Dedicated execution environments for cross-border task management."
+      },
+      "kpi": {
+        "title": "KPI Dashboard",
+        "description": "Real-time visualization of expansion velocity and ROI metrics."
+      },
+      "gantt": {
+        "title": "Gantt Charts",
+        "description": "Timeline-driven management of complex international deployments."
+      },
+      "documents": {
+        "title": "Document Hub",
+        "description": "Secure storage for legal, tax, and compliance documents by region."
+      },
+      "database": {
+        "title": "Global Partner Database",
+        "description": "Access NOBOCO's vetted network of international advisors, legal experts, and distributors directly from the dashboard."
+      }
+    },
+    "architecture": {
+      "title": "Unified Architecture. <br />Localized Execution.",
+      "hqTerminal": "HQ TERMINAL",
+      "hq": {
+        "title": "Enterprise HQ",
+        "description": "Full oversight and governance. Manage global budgets, permissions, and cross-market intelligence from a single seat."
+      },
+      "partners": {
+        "title": "Regional Partners",
+        "description": "Delegated workspace for local consultants and distributors. Role-based access ensures data security across jurisdictions."
+      },
+      "sme": {
+        "title": "SME Operations",
+        "description": "Operational tools for the day-to-day work of expansion. Tracking sales, compliance, and growth metrics in real-time."
       }
     }
   },
-  "exploreMarkets": {
-    "title": "Explore Our Market Entry One-Shot Services",
-    "description": "We offer a structured set of services designed to support companies at every stage of market entry — from initial assessment to execution and growth. <br /> <br /> Our approach combines strategic advisory, market analysis, and operational support into a clear and scalable system, allowing you to move from idea to market with confidence. <br /> Each service is designed to be modular and actionable, giving you the flexibility to start where you need and expand as your project evolves.",
-    "serviceMenu": "View Full Service Menu"
-  },
-  "joinForms": {
-    "smeWaitlist": {
-      "title": "Join the SME Waitlist",
-      "description": "Be one of the first companies to expand globally with NOBOCO and Bridgebase. <br /> Gain early access to our market entry tools.",
-      "companyNameLabel": "Company name",
-      "companyNamePlaceholder": "Enter your company name",
-      "emailAddressLabel": "Email address",
-      "targetMarketLabel": "Target market",
-      "joinWaitlistButton": "Join waitlist 👉",
-      "dataPrivacy": "We respect your data privacy. No spam, ever."
+  "partners": {
+    "seo": {
+      "title": "International Partners — NOBOCO",
+      "description": "Join NOBOCO's international partner network and help ambitious companies enter new markets through a proven methodology, AI-powered tools, and local expertise."
     },
-    "nobocoPartners": {
-      "title": "Become a NOBOCO Partner (Licensee)",
-      "description": "Bring NOBOCO + Bridgebase to your country and support SMEs locally. <br /> Join our global network of consultants.",
-      "nameCompanyLabel": "Name / Company",
-      "nameCompanyPlaceholder": "Enter your name / company",
-      "emailAddressLabel": "Email address",
-      "countryLabel": "Country",
-      "applyAsPartnerButton": "Apply as a Partner 👉",
-      "dataPrivacy": "We respect your data privacy. No spam, ever."
+    "hero": {
+      "eyebrow": "GLOBAL EXPANSION OS",
+      "title": "Become a NOBOCO International Partner",
+      "lead": "Expand Your Business Beyond Borders",
+      "description": "Join NOBOCO's international partner network and help ambitious companies enter new markets through a proven methodology, AI-powered tools, and local expertise.",
+      "cta": "Apply for Partnership"
+    },
+    "why": {
+      "title": "The Shift in Global Advisory",
+      "quote": "\"Traditional consultants sell time. NOBOCO partners operate a system.\"",
+      "description": "Stop trading hours for dollars. As a NOBOCO partner, you deploy our proprietary infrastructure—Bridgebase—allowing you to manage 10x more clients with higher precision and lower overhead.",
+      "efficiency": {
+        "label": "EFFICIENCY",
+        "caption": "Client Capacity"
+      },
+      "network": {
+        "label": "NETWORK",
+        "caption": "Global Hubs"
+      },
+      "automation": {
+        "label": "AUTOMATION",
+        "caption": "Work Automation"
+      }
+    },
+    "benefits": {
+      "title": "Partner Infrastructure",
+      "subtitle": "Everything you need to run a modern, scalable global expansion agency.",
+      "bridgebase": {
+        "title": "Bridgebase Access",
+        "description": "Our proprietary SaaS platform for managing cross-border workflows and stakeholder alignment in real-time."
+      },
+      "methodology": {
+        "title": "NBP Methodology",
+        "description": "The Noboco Business Protocol (NBP) - a rigorous, step-by-step framework for guaranteed market entry success."
+      },
+      "aiTools": {
+        "title": "AI Tools",
+        "description": "Generative AI agents trained specifically on global trade regulations, logistics, and localized marketing intelligence."
+      },
+      "templates": {
+        "title": "Templates",
+        "description": "A comprehensive library of legal contracts, market research reports, and go-to-market strategic playbooks."
+      },
+      "certification": {
+        "title": "Certification",
+        "description": "Official endorsement as a NOBOCO Certified Global Strategist, granting priority lead flow from our central pipeline."
+      },
+      "governance": {
+        "title": "Governance",
+        "description": "Strict quality control and ethics protocols ensuring brand consistency and trust across the global network."
+      }
+    },
+    "revenue": {
+      "title": "Aligned Financial Success",
+      "description": "Our revenue model is designed to reward operational excellence and sustainable growth, creating multiple streams of income for the partner.",
+      "license": {
+        "title": "License Fees",
+        "description": "Exclusive regional rights with predictable annual licensing tiers."
+      },
+      "share": {
+        "title": "Revenue Share",
+        "description": "Generous margins on direct advisory services facilitated by Bridgebase."
+      },
+      "support": {
+        "title": "Support Services",
+        "description": "Monetize localized logistics, legal, and operational support through the platform."
+      }
+    },
+    "cta": {
+      "title": "Ready to transition from consulting to systemized advisory?",
+      "description": "Selection is highly competitive. We only accept one partner per region to ensure total market alignment and priority.",
+      "button": "Inquire About Your Territory"
     }
   },
-
+  "investors": {
+    "seo": {
+      "title": "Investors — NOBOCO",
+      "description": "NOBOCO is building the world's first AI-driven OS for international scale, transforming the $50B cross-border SME opportunity into a frictionless utility."
+    },
+    "hero": {
+      "eyebrow": "INVESTOR RELATIONS",
+      "title": "Investing in the Future of <span class=\"text-tertiary\">Global Expansion</span>",
+      "description": "NOBOCO is building the world's first AI-driven OS for international scale, transforming the $50B cross-border SME opportunity into a frictionless utility.",
+      "requestDeck": "REQUEST DECK",
+      "viewDataroom": "VIEW DATAROOM"
+    },
+    "thesis": {
+      "eyebrow": "THE THESIS",
+      "title": "Capturing the $40-60M Gap",
+      "description": "SMEs represent 90% of global businesses but only 20% of cross-border trade due to high friction, regulatory opacity, and fragmented execution. Bridgebase solves this by centralizing global logistics, legal, and compliance into a single AI-orchestrated stack.",
+      "point1": "Standardizing fragmented regulatory data for autonomous execution.",
+      "point2": "Scaling service provider access via an API-first partner network.",
+      "point3": "Proprietary NOBOCO network data creates unreplicable AI training sets.",
+      "friction": {
+        "title": "The Friction",
+        "description": "Manual, opaque expansion workflows requiring 12+ vendors and expensive siloes of legal advice."
+      },
+      "catalyst": {
+        "title": "The Catalyst",
+        "description": "Bridgebase OS: A 3-layer architecture that automates orchestration, standardizes execution, and verifies partners."
+      }
+    },
+    "advantage": {
+      "title": "Strategic Advantage",
+      "description": "A multi-dimensional revenue engine with deep defensive moats.",
+      "stack": {
+        "value": "Vertical Stack",
+        "label": "PLATFORM DOMINANCE",
+        "description": "Owning the entire expansion lifecycle allows for recurring retainer fees and transaction-based margins from verified partner executions."
+      },
+      "nbp": {
+        "value": "NBP Logic",
+        "label": "THE NETWORK MOAT",
+        "description": "Our Network Bias Protocol ensures quality through algorithmically verified partner history, creating a fly-wheel of trusted performance."
+      },
+      "data": {
+        "value": "Data Moat",
+        "label": "AI PROPRIETARY SETS",
+        "description": "Token-based access to predictive expansion modeling powered by exclusive data from over 28 active market nodes."
+      }
+    },
+    "traction": {
+      "expansions": "EXPANSIONS",
+      "countries": "COUNTRIES",
+      "partners": "PARTNERS",
+      "growth": "GROWTH (YoY)"
+    },
+    "milestones": {
+      "title": "Milestones and growth plan",
+      "m1": {
+        "title": "2026: Bridgebase MVP Launch",
+        "description": "Integration of primary partner APIs and AI core orchestration engine."
+      },
+      "m2": {
+        "title": "2027: Regional Scale-up",
+        "description": "Penetration of APAC/EU markets and automated compliance desk rollout."
+      },
+      "m3": {
+        "title": "2028: Institutional Dominance",
+        "description": "Series A funding for full OS suite rollout and global market leadership."
+      }
+    },
+    "vision": {
+      "eyebrow": "THE MISSION",
+      "title": "The <span class=\"italic text-tertiary\">Operating System</span> for Global Sovereignty.",
+      "cta": "JOIN THE NETWORK"
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Contact — NOBOCO",
+      "description": "If you are an SME wishing to enter a new market, a company interested in becoming our next partner, or an investor, let's talk."
+    },
+    "hero": {
+      "eyebrow": "Executive Inquiries",
+      "title": "If you are an SME wishing to enter a new market, a company interested in becoming our next partner or an investor interested in learning more about NOBOCO, let's talk."
+    },
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "John Doe",
+      "company": "Company",
+      "companyPlaceholder": "Organization Name",
+      "email": "Work Email",
+      "phone": "Phone Number",
+      "country": "Country",
+      "countryPlaceholder": "Primary Market",
+      "inquiry": {
+        "label": "Inquiry Type",
+        "placeholder": "Select inquiry type...",
+        "sme": "SME (Small/Medium Enterprise)",
+        "partner": "Partner Opportunity",
+        "investor": "Investor Inquiry",
+        "bridgebase": "Bridgebase Access",
+        "other": "Other"
+      },
+      "message": "Message",
+      "messagePlaceholder": "Briefly describe your expansion goals...",
+      "send": "Send",
+      "sent": "Message Ready",
+      "sentHint": "Your email client should have opened with a prefilled message ready to send. If nothing happened, please check your browser's pop-up settings."
+    }
+  },
   "footer": {
+    "tagline": "Building the operating system for SME global expansion.",
+    "navLabel": "Footer navigation",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service",
     "contactUs": "Contact us",
-    "copyright": "© 2026 NOBOCO. All rights reserved."
+    "copyright": "© 2026 NOBOCO Inc. All rights reserved."
   }
 }
