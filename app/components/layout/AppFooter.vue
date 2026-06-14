@@ -28,9 +28,6 @@ const navLinks = [
           >
             NOBOCO Inc.
           </NuxtLink>
-          <p class="text-on-surface-variant text-body-md">
-            {{ t("footer.tagline") }}
-          </p>
         </div>
 
         <nav
