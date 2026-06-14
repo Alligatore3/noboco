@@ -15,8 +15,12 @@ const navLinks = [
   <footer
     class="bg-surface-container-lowest border-t border-outline-variant/30"
   >
-    <div class="max-w-container mx-auto px-margin-mobile md:px-margin-desktop py-16">
-      <div class="flex flex-col gap-10 md:flex-row md:items-start md:justify-between">
+    <div
+      class="max-w-container mx-auto px-margin-mobile md:px-margin-desktop py-16"
+    >
+      <div
+        class="flex flex-col gap-10 md:flex-row md:items-start md:justify-between"
+      >
         <div class="space-y-4 max-w-sm">
           <NuxtLink
             :to="localePath('/')"
@@ -52,13 +56,13 @@ const navLinks = [
         </p>
         <div class="flex flex-wrap gap-x-6 gap-y-2">
           <a
-            href="#"
+            href="/docs/NOBOCO_Privacy_Policy.pdf"
             class="text-on-surface-variant hover:text-on-surface text-label-md transition-colors"
           >
             {{ t("footer.privacyPolicy") }}
           </a>
           <a
-            href="#"
+            href="/docs/NOBOCO_Terms_of_Service.pdf"
             class="text-on-surface-variant hover:text-on-surface text-label-md transition-colors"
           >
             {{ t("footer.termsOfService") }}
