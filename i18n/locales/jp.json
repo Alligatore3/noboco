@@ -1,123 +1,502 @@
 {
-  "header": {
-    "mission": "ミッション",
+  "nav": {
+    "home": "ホーム",
     "consulting": "コンサルティング",
-    "crm": "CRM",
+    "bridgebase": "Bridgebase",
+    "partners": "海外パートナー",
+    "investors": "投資家の皆様",
+    "contact": "お問い合わせ",
     "openMenu": "メニューを開く",
     "closeMenu": "メニューを閉じる",
-    "mobileNavLabel": "サイトナビゲーション"
+    "menuLabel": "サイトナビゲーション"
   },
   "home": {
-    "title": {
-      "part1": "海外展開を、",
-      "part2": "確実に。"
+    "seo": {
+      "title": "NOBOCO — 海外展開のためのOS",
+      "description": "NOBOCOはAI・ソフトウェア・方法論・現地知見を組み合わせ、海外展開を再現性のある拡張可能なプロセスへと変革します。"
     },
-    "description": "NOBOCOは、AIと実行支援を組み合わせた市場参入ソリューションにより、海外展開をより確実かつ効率的に実現します。最適なパートナーとの連携をスピーディーに構築します。",
-    "joinWaitlistButton": "先行登録はこちら 👉",
-    "partnerWithUsButton": "パートナー募集"
-  },
-  "mission": {
-    "title": "ミッション",
-    "scale": "海外市場参入を、再現性のあるプロセスへ。",
-    "description": "海外展開はこれまで、個人のネットワークや属人的な経験に依存しがちでした。NOBOCOはそれを仕組み化し、企業とパートナー双方にとって、再現性があり、実行可能で、持続的に拡張できるモデルへと転換します。",
-    "corePillars": {
-      "title": "3つの柱",
-      "description": "NOBOCOが提供する価値："
+    "hero": {
+      "eyebrow": "エグゼクティブのためのOS",
+      "title": "<span class=\"text-tertiary\">中小企業のグローバル展開</span>を支えるオペレーティングシステム",
+      "description": "NOBOCOはAI・ソフトウェア・方法論・現地知見を組み合わせ、海外展開を再現性のある拡張可能なプロセスへと変革します。",
+      "cta": "無料相談を予約"
     },
-    "localExpertise": {
-      "title": "現地知見",
-      "description": "各市場に精通したパートナーと連携し、実務レベルでの意思決定を支援します。"
+    "dashboard": {
+      "title": "Bridgebase コマンド",
+      "aiFitCheck": "AI 適合度チェック",
+      "marketResearch": "市場リサーチ",
+      "marketResearchValue": "ブラジル（中南米）",
+      "strategicTier": "戦略ティア A",
+      "kpiTracking": "KPI リアルタイム追跡",
+      "partnerNetwork": "パートナーネットワーク：稼働中",
+      "verifiedNodes": "認証済み8拠点"
     },
-    "operationalExecution": {
-      "title": "実行支援",
-      "description": "戦略だけでなく、実行までを一貫して支援し、スピードと確実性を両立します。"
+    "trust": {
+      "projects": "進行中プロジェクト",
+      "countries": "対応国数",
+      "partners": "パートナーネットワーク"
     },
-    "intelligentCRM": {
-      "title": "データ活用",
-      "description": "データとAIを活用し、意思決定を可視化・最適化します。"
+    "problem": {
+      "title": "海外展開は、本来あるべき姿よりも難しい",
+      "start": {
+        "title": "どこから始めるべきか分からない",
+        "description": "最適な市場選定での迷いが、後の高コストな方向転換につながりがちです。"
+      },
+      "partner": {
+        "title": "適切なパートナーが見つからない",
+        "description": "事前検証されたグローバルネットワークなしでは、現地の選定は遅く、リスクも高くなります。"
+      },
+      "cost": {
+        "title": "市場参入のたびにコストがかかりすぎる",
+        "description": "従来型コンサルティングの費用は、立ち上げ前に拡大予算を圧迫します。"
+      },
+      "time": {
+        "title": "すでに時間を失っている",
+        "description": "煩雑な書類や縦割り組織に対応する間にも、競合は拡大を続けています。"
+      }
+    },
+    "about": {
+      "title": "自ら困難を乗り越えてきた人々が築きました",
+      "operator": {
+        "title": "実務家による創業",
+        "description": "国際ビジネスと市場参入の実体験を持つプロフェッショナルが構築しています。"
+      },
+      "methodology": {
+        "title": "方法論に基づく",
+        "description": "海外展開を再現可能かつ測定可能にするための体系的な方法論です。"
+      },
+      "connected": {
+        "title": "グローバルにつながる",
+        "description": "複数市場での展開を支える、成長し続けるパートナーと専門家のエコシステム。"
+      },
+      "technology": {
+        "title": "テクノロジーが支える",
+        "description": "海外展開の未来を担うプラットフォーム、Bridgebaseを構築しています。"
+      }
+    },
+    "framework": {
+      "title": "あらゆる展開を支えるフレームワーク",
+      "steps": {
+        "ideation": "構想",
+        "marketFit": "市場適合",
+        "strategy": "戦略",
+        "setup": "立ち上げ",
+        "compliance": "コンプライアンス",
+        "execution": "実行",
+        "growth": "成長",
+        "scale": "拡大"
+      }
+    },
+    "engine": {
+      "eyebrow": "独自開発のエンジン",
+      "title": "Bridgebase のご紹介",
+      "intelligence": {
+        "title": "マーケットインテリジェンス",
+        "description": "業界固有のKPIに基づく、リアルタイムのデータフィードとAI主導の市場スコアリング。"
+      },
+      "documents": {
+        "title": "ドキュメント生成",
+        "description": "現地契約書、コンプライアンス書類、参入プレイブックを自動作成します。"
+      },
+      "matching": {
+        "title": "パートナーマッチング",
+        "description": "過去の実績に基づき、検証済みの現地パートナーをアルゴリズムでマッチング。"
+      },
+      "dashboard": {
+        "title": "プロジェクトダッシュボード",
+        "description": "国境を越えたマイルストーン、コミュニケーション、KPI追跡の唯一の信頼できる情報源。"
+      }
+    },
+    "ecosystem": {
+      "title": "グローバル展開エコシステム",
+      "hq": "NOBOCO 本部",
+      "partners": "パートナー",
+      "smes": "クライアント中小企業",
+      "description": "当社のアーキテクチャは、中央集権的な戦略と現地での実行を結びつけ、中小企業がスタートアップの俊敏性と多国籍企業のインフラを兼ね備えて事業を展開できるようにします。"
+    },
+    "vision": "「海外展開のためのグローバル<span class=\"text-tertiary\">オペレーティングシステム</span>になる」",
+    "finalCta": {
+      "title": "次の市場へ参入する準備はできていますか？",
+      "button": "相談を予約"
     }
   },
-  "whatWeDo": {
-    "title": "サービス概要",
-    "scope": "中小企業向け<br />海外市場参入支援",
-    "description": "NOBOCOは、中小企業の海外展開における戦略立案から実行までを一気通貫で支援します。現地パートナーとテクノロジーを組み合わせ、実務レベルでの成果創出を目指します。",
-    "marketResearch": {
-      "title": "市場調査・適合性分析",
-      "description": "市場規模、競合、規制環境を分析し、参入可能性と成功確率を評価します。"
+  "consulting": {
+    "seo": {
+      "title": "コンサルティング — NOBOCO",
+      "description": "グローバル商取引の複雑さに向き合う高成長中小企業・企業のために設計された、海外市場参入の再現可能な方法論。"
     },
-    "operationalExecution": {
-      "title": "実行支援",
-      "description": "現地でのオペレーション構築・進行管理を行い、スムーズな立ち上げを実現します。"
+    "hero": {
+      "eyebrow": "エグゼクティブ・アドバイザリー",
+      "title": "海外展開を、<span class=\"text-tertiary italic\">仕組み化する。</span>",
+      "description": "グローバル商取引の複雑さに向き合う高成長中小企業・企業のために設計された、海外市場参入の再現可能な方法論。",
+      "cta": "相談を予約"
     },
-    "salesDistribution": {
-      "title": "営業・販路構築",
-      "description": "販売チャネルの構築と初期顧客の獲得を支援します。"
+    "services": {
+      "title": "中核コンサルティングサービス",
+      "subtitle": "当社のエンドツーエンドのフレームワークは、市場参入の成功に必要なあらゆる戦術・戦略レイヤーをカバーします。",
+      "pillarLabel": "01 / 中核となる柱",
+      "strategy": {
+        "title": "市場参入戦略",
+        "description": "市場選定、参入形態、リソース配分のための包括的な設計図。"
+      },
+      "research": {
+        "title": "市場リサーチ",
+        "description": "消費者行動、現地トレンド、需要予測へのデータ駆動型の深掘り分析。"
+      },
+      "distributor": {
+        "title": "ディストリビューター探索",
+        "description": "独自のグローバルネットワークを通じた、現地販売パートナーの選定と評価。"
+      },
+      "scouting": {
+        "title": "パートナースカウティング",
+        "description": "現地での成長を加速する戦略的提携・JVパートナーの特定。"
+      },
+      "localization": {
+        "title": "ローカライゼーション",
+        "description": "ブランド、製品、メッセージを現地の文化に合わせて最適化します。"
+      },
+      "bizdev": {
+        "title": "事業開発",
+        "description": "新たな地域における能動的なパイプライン構築と営業代行。"
+      },
+      "marketing": {
+        "title": "デジタルマーケティング",
+        "description": "現地プラットフォームと検索エンジンに最適化したパフォーマンスマーケティング。"
+      },
+      "pm": {
+        "title": "プロジェクトマネジメント",
+        "description": "展開施策の実行ライフサイクル全体を厳格に管理します。"
+      }
     },
-    "marketingLocalization": {
-      "title": "マーケティング・ローカライズ",
-      "description": "現地市場に適したブランド・メッセージ設計と施策展開を行います。"
+    "oneShot": {
+      "title": "小さく始め、素早く検証する。",
+      "subtitle": "顧問契約なしで市場仮説を検証できる、モジュール型の単発デリバラブル。",
+      "fit": {
+        "tag": "迅速",
+        "title": "AI 適合度チェック",
+        "description": "12の対象国における製品・市場適合性を48時間で機械学習分析します。"
+      },
+      "gtm": {
+        "tag": "設計図",
+        "title": "GTM プラン",
+        "description": "特定の単一国向けの、すぐに実行可能な包括的Go-To-Market戦略。"
+      },
+      "target": {
+        "tag": "ネットワーク",
+        "title": "ターゲットリスト",
+        "description": "温かい紹介経路付きの、現地ディストリビューター・パートナー上位50社の検証済みリスト。"
+      }
     },
-    "helps": "NOBOCOは、初期分析から最初の取引成立まで、海外市場参入を一貫して支援します。",
-    "bridgebase": "Bridgebaseは、これらのプロセスを標準化し、効率的に管理するためのプラットフォームです。→"
+    "process": {
+      "discovery": {
+        "title": "ディスカバリー",
+        "description": "社内評価と目標のすり合わせ。"
+      },
+      "research": {
+        "title": "リサーチ",
+        "description": "確かなデータ収集と市場マッピング。"
+      },
+      "matching": {
+        "title": "マッチング",
+        "description": "現地パートナーの選定と初期アプローチ。"
+      },
+      "structuring": {
+        "title": "ストラクチャリング",
+        "description": "法的枠組みの整備とディール最適化。"
+      },
+      "launch": {
+        "title": "ローンチ",
+        "description": "実行管理と市場参入。"
+      }
+    },
+    "industries": {
+      "title": "業界別の専門性",
+      "food": {
+        "title": "食品・飲料",
+        "description": "世界の小売・HoReCaチャネルで消費者ブランドを拡大。"
+      },
+      "fashion": {
+        "title": "ファッション・化粧品",
+        "description": "プレミアム市場での複雑な物流とブランドポジショニングを支援。"
+      },
+      "industrial": {
+        "title": "産業・製造",
+        "description": "サプライチェーン最適化と技術パートナーシップの構築。"
+      },
+      "saas": {
+        "title": "サービス・SaaS",
+        "description": "クラウドのスケーラビリティと国境を越えたデジタルサービスの実装。"
+      }
+    },
+    "cta": {
+      "title": "あなたの<span class=\"text-tertiary italic\">領域</span>を広げる準備はできていますか？",
+      "description": "NOBOCOの方法論を活用して海外プレゼンスを拡大してきたブランドの仲間入りをしましょう。",
+      "button": "今すぐ問い合わせる"
+    }
   },
-  "bridgeBase": {
-    "title": "Bridgebase - 海外展開支援CRM",
-    "description": "AI活用による統合プラットフォーム",
-    "description2": "Bridgebaseは、海外市場参入に関わるすべてのプロセスを一元管理し、分散した情報を統合。意思決定のスピードと精度を高めます。",
-    "features": {
-      "fitAssessment": {
-        "title": "AI適合性診断",
-        "description": "市場との適合性をデータに基づいて分析し、参入判断を支援します。"
+  "bridgebase": {
+    "seo": {
+      "title": "Bridgebase — NOBOCO",
+      "description": "統合されたインテリジェンス層を通じて複雑なグローバル成長を統括。Bridgebaseは国境なき中小企業のためのインフラです。"
+    },
+    "hero": {
+      "eyebrow": "次世代オペレーティングシステム",
+      "title": "Bridgebase：<span class=\"text-tertiary\">海外展開</span>のためのオペレーティングシステム。",
+      "description": "統合されたインテリジェンス層を通じて複雑なグローバル成長を統括します。市場選定から自律的なワークフローまで、Bridgebaseは国境なき中小企業のためのインフラです。",
+      "mockTitle": "展開オーバービュー"
+    },
+    "positioning": {
+      "line1": "多くのCRMは顧客を管理します。",
+      "line2": "Bridgebaseは「展開」を管理します。",
+      "description": "従来のプラットフォームが社内の販売サイクルに焦点を当てるのに対し、Bridgebaseは現地の能力とグローバルな機会の間の外部ギャップを橋渡しします。"
+    },
+    "modules": {
+      "title": "展開モジュール",
+      "subtitle": "海外成長エンジンを構成する中核要素。",
+      "fitCheck": {
+        "title": "AI 適合度チェック",
+        "description": "財務データ、規制環境、現地の需要シグナルに基づく、市場適合性の高度なアルゴリズムスコアリング。",
+        "link": "分析を見る →"
       },
-      "languageAndCulturalAlHub": {
-        "title": "言語・文化対応支援",
-        "description": "言語や文化の違いによるリスクを軽減します。"
+      "research": {
+        "title": "リサーチワークスペース",
+        "description": "競合インテリジェンスと現地市場トレンドの一元的なハブ。"
       },
-      "automaticReportGeneration": {
-        "title": "レポート自動生成",
-        "description": "市場分析レポートを迅速に作成可能。"
+      "plan": {
+        "title": "プランビルダー",
+        "description": "現地向けビジネスモデルとエグゼクティブサマリーの自動作成。"
       },
-      "partnerAndDealManagement": {
-        "title": "パートナー・案件管理",
-        "description": "海外パートナーや案件情報を一元管理します。"
+      "proposal": {
+        "title": "提案書ジェネレーター",
+        "description": "現地ステークホルダー向けの多通貨対応・動的提案書生成。"
       },
-      "licensablePlatform": {
-        "title": "ライセンス展開可能",
-        "description": "各国での展開に対応した柔軟なプラットフォーム設計。"
+      "gtm": {
+        "title": "GTM プランナー",
+        "description": "地域横断でのマイルストーン追跡とリソース配分を自動化する戦略的Go-To-Market統括。"
+      },
+      "project": {
+        "title": "プロジェクトワークスペース",
+        "description": "国境を越えたタスク管理のための専用実行環境。"
+      },
+      "kpi": {
+        "title": "KPI ダッシュボード",
+        "description": "展開スピードとROI指標のリアルタイム可視化。"
+      },
+      "gantt": {
+        "title": "ガントチャート",
+        "description": "複雑な国際展開のタイムライン駆動型マネジメント。"
+      },
+      "documents": {
+        "title": "ドキュメントハブ",
+        "description": "地域別の法務・税務・コンプライアンス書類を安全に保管。"
+      },
+      "database": {
+        "title": "グローバルパートナーデータベース",
+        "description": "NOBOCOの検証済み国際アドバイザー、法律専門家、ディストリビューターのネットワークにダッシュボードから直接アクセス。"
+      }
+    },
+    "architecture": {
+      "title": "統合されたアーキテクチャ。<br />現地での実行。",
+      "hqTerminal": "本部ターミナル",
+      "hq": {
+        "title": "エンタープライズ本部",
+        "description": "全体の統制とガバナンス。グローバル予算、権限、市場横断のインテリジェンスを単一の席から管理します。"
+      },
+      "partners": {
+        "title": "地域パートナー",
+        "description": "現地コンサルタントやディストリビューターに委任されたワークスペース。役割ベースのアクセスが各国でのデータ安全性を担保します。"
+      },
+      "sme": {
+        "title": "中小企業オペレーション",
+        "description": "展開の日々の業務のための運用ツール。売上、コンプライアンス、成長指標をリアルタイムで追跡します。"
       }
     }
   },
-  "exploreMarkets": {
-   "title": "マーケット参入ワンショットサービスのご紹介",
-"description": "当社は、企業のマーケット参入をあらゆる段階で支援するために設計された、体系的なサービスを提供しています。初期評価から実行、そして成長フェーズまでを一貫してサポートします。<br /><br />当社のアプローチは、戦略コンサルティング、市場分析、オペレーション支援を組み合わせた、明確かつ拡張性のある仕組みに基づいており、アイデアから市場参入までを確実に推進します。<br />各サービスはモジュール型かつ実行可能な設計となっており、必要な段階から柔軟に開始し、プロジェクトの進展に応じて拡張することが可能です。",
-"serviceMenu": "サービス一覧を見る"
-  },
-  "joinForms": {
-    "smeWaitlist": {
-      "title": "先行登録（企業向け）",
-      "description": "NOBOCOおよびBridgebaseを活用した海外展開支援にご関心のある企業様は、ぜひご登録ください。優先的にご案内いたします。",
-      "companyNameLabel": "会社名",
-      "companyNamePlaceholder": "会社名をご入力ください",
-      "emailAddressLabel": "メールアドレス",
-      "targetMarketLabel": "進出予定市場",
-      "joinWaitlistButton": "先行登録 👉",
-      "dataPrivacy": "ご入力いただいた情報は適切に管理し、第三者へ提供することはありません。"
+  "partners": {
+    "seo": {
+      "title": "海外パートナー — NOBOCO",
+      "description": "NOBOCOの海外パートナーネットワークに参加し、実証済みの方法論、AIツール、現地知見で意欲ある企業の新市場参入を支援しましょう。"
     },
-    "nobocoPartners": {
-      "title": "パートナー募集（ライセンシー）",
-      "description": "NOBOCOおよびBridgebaseを各国で展開し、現地企業の海外進出を支援いただけるパートナーを募集しています。",
-      "nameCompanyLabel": "氏名 / 会社名",
-      "nameCompanyPlaceholder": "氏名または会社名をご入力ください",
-      "emailAddressLabel": "メールアドレス",
-      "countryLabel": "所在国",
-      "applyAsPartnerButton": "パートナー応募 👉",
-      "dataPrivacy": "ご入力いただいた情報は適切に管理し、第三者へ提供することはありません。"
+    "hero": {
+      "eyebrow": "グローバル展開 OS",
+      "title": "NOBOCO 海外パートナーになる",
+      "lead": "国境を越えてビジネスを拡大",
+      "description": "NOBOCOの海外パートナーネットワークに参加し、実証済みの方法論、AIツール、現地知見で意欲ある企業の新市場参入を支援しましょう。",
+      "cta": "パートナーに応募する"
+    },
+    "why": {
+      "title": "グローバル・アドバイザリーの転換",
+      "quote": "「従来のコンサルタントは時間を売る。NOBOCOパートナーはシステムを運用する。」",
+      "description": "時間を切り売りするのはもう終わりです。NOBOCOパートナーとして当社の独自インフラ Bridgebase を活用すれば、より高い精度と低い間接費で10倍のクライアントを管理できます。",
+      "efficiency": {
+        "label": "効率",
+        "caption": "クライアント対応力"
+      },
+      "network": {
+        "label": "ネットワーク",
+        "caption": "グローバル拠点"
+      },
+      "automation": {
+        "label": "自動化",
+        "caption": "業務の自動化"
+      }
+    },
+    "benefits": {
+      "title": "パートナー・インフラ",
+      "subtitle": "現代的でスケーラブルなグローバル展開エージェンシーの運営に必要なすべて。",
+      "bridgebase": {
+        "title": "Bridgebase アクセス",
+        "description": "国境を越えたワークフローとステークホルダー連携をリアルタイムで管理する独自SaaSプラットフォーム。"
+      },
+      "methodology": {
+        "title": "NBP 方法論",
+        "description": "NOBOCO Business Protocol（NBP）— 市場参入の成功を確実にする厳格なステップバイステップのフレームワーク。"
+      },
+      "aiTools": {
+        "title": "AI ツール",
+        "description": "国際貿易規制、物流、現地マーケティングインテリジェンスに特化して訓練された生成AIエージェント。"
+      },
+      "templates": {
+        "title": "テンプレート",
+        "description": "法的契約書、市場調査レポート、Go-To-Market戦略プレイブックの包括的ライブラリ。"
+      },
+      "certification": {
+        "title": "認定",
+        "description": "NOBOCO認定グローバルストラテジストとしての公式認定。中央パイプラインからの優先的なリード提供が受けられます。"
+      },
+      "governance": {
+        "title": "ガバナンス",
+        "description": "ネットワーク全体でブランドの一貫性と信頼を確保する厳格な品質管理と倫理プロトコル。"
+      }
+    },
+    "revenue": {
+      "title": "整合した経済的成功",
+      "description": "当社の収益モデルは、卓越した運営と持続的な成長を報い、パートナーに複数の収入源を生み出すよう設計されています。",
+      "license": {
+        "title": "ライセンス料",
+        "description": "予測可能な年間ライセンスティアによる独占的な地域権利。"
+      },
+      "share": {
+        "title": "レベニューシェア",
+        "description": "Bridgebaseが支援する直接アドバイザリーサービスにおける高いマージン。"
+      },
+      "support": {
+        "title": "サポートサービス",
+        "description": "プラットフォームを通じて現地の物流・法務・運用サポートを収益化。"
+      }
+    },
+    "cta": {
+      "title": "コンサルティングから仕組み化されたアドバイザリーへ移行する準備はできていますか？",
+      "description": "選考は非常に競争的です。完全な市場整合性と優先性を確保するため、1地域につき1パートナーのみを受け入れます。",
+      "button": "担当地域について問い合わせる"
+    }
+  },
+  "investors": {
+    "seo": {
+      "title": "投資家の皆様 — NOBOCO",
+      "description": "NOBOCOは世界初のAI駆動型・国際展開OSを構築し、500億ドル規模の越境中小企業の機会を摩擦のないユーティリティへと変革します。"
+    },
+    "hero": {
+      "eyebrow": "インベスター・リレーションズ",
+      "title": "<span class=\"text-tertiary\">グローバル展開</span>の未来への投資",
+      "description": "NOBOCOは世界初のAI駆動型・国際展開OSを構築し、500億ドル規模の越境中小企業の機会を摩擦のないユーティリティへと変革します。",
+      "requestDeck": "資料を請求"
+    },
+    "thesis": {
+      "eyebrow": "投資仮説",
+      "title": "4,000〜6,000万ドルのギャップを捉える",
+      "description": "中小企業は世界の企業の90%を占めますが、高い摩擦、規制の不透明さ、断片的な実行により、越境取引ではわずか20%にとどまります。Bridgebaseは、グローバルな物流・法務・コンプライアンスを単一のAI統括スタックに集約することでこれを解決します。",
+      "point1": "断片化した規制データを標準化し、自律的な実行を実現。",
+      "point2": "API優先のパートナーネットワークでサービスプロバイダーへのアクセスを拡大。",
+      "point3": "NOBOCO独自のネットワークデータが、再現不可能なAI学習データセットを生み出す。",
+      "friction": {
+        "title": "摩擦",
+        "description": "12社以上のベンダーと高コストな縦割りの法務助言を要する、手作業で不透明な展開ワークフロー。"
+      },
+      "catalyst": {
+        "title": "触媒",
+        "description": "Bridgebase OS：統括を自動化し、実行を標準化し、パートナーを検証する3層アーキテクチャ。"
+      }
+    },
+    "advantage": {
+      "title": "戦略的優位性",
+      "description": "深い防御的な堀を備えた、多次元的な収益エンジン。",
+      "stack": {
+        "value": "垂直統合スタック",
+        "label": "プラットフォームの優位",
+        "description": "展開ライフサイクル全体を所有することで、継続的なリテイナー収益と、検証済みパートナー実行による取引ベースのマージンを実現します。"
+      },
+      "nbp": {
+        "value": "NBP ロジック",
+        "label": "ネットワークの堀",
+        "description": "当社のNetwork Bias Protocolは、アルゴリズムで検証されたパートナー履歴により品質を担保し、信頼できる実績のフライホイールを生み出します。"
+      },
+      "data": {
+        "value": "データの堀",
+        "label": "AI 独自データセット",
+        "description": "28以上の稼働中市場ノードからの独占的データを活用した、予測的展開モデリングへのトークンベースアクセス。"
+      }
+    },
+    "milestones": {
+      "title": "マイルストーンと成長計画",
+      "m1": {
+        "title": "2026年：Bridgebase MVP ローンチ",
+        "description": "主要パートナーAPIとAIコア統括エンジンの統合。"
+      },
+      "m2": {
+        "title": "2027年：地域スケールアップ",
+        "description": "APAC・EU市場への浸透と自動コンプライアンスデスクの展開。"
+      },
+      "m3": {
+        "title": "2028年：機関投資家レベルの優位確立",
+        "description": "フルOSスイート展開とグローバル市場リーダーシップのためのシリーズA資金調達。"
+      }
+    },
+    "vision": {
+      "eyebrow": "ミッション",
+      "title": "グローバル・ソブリンティのための<span class=\"italic text-tertiary\">オペレーティングシステム</span>。",
+      "cta": "ネットワークに参加する"
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "お問い合わせ — NOBOCO",
+      "description": "新市場への参入を目指す中小企業の方、次のパートナーをお考えの企業の方、投資家の方、ぜひお話ししましょう。"
+    },
+    "hero": {
+      "eyebrow": "エグゼクティブ・インクワイアリー",
+      "title": "新市場への参入を目指す中小企業の方、次のパートナーをお考えの企業の方、NOBOCOについて詳しく知りたい投資家の方、ぜひお話ししましょう。"
+    },
+    "form": {
+      "name": "氏名",
+      "namePlaceholder": "山田 太郎",
+      "company": "会社名",
+      "companyPlaceholder": "組織名",
+      "email": "ビジネスメール",
+      "phone": "電話番号",
+      "country": "国",
+      "countryPlaceholder": "主要市場",
+      "inquiry": {
+        "label": "お問い合わせ種別",
+        "placeholder": "種別を選択してください...",
+        "sme": "中小企業（SME）",
+        "partner": "パートナーシップ",
+        "investor": "投資に関するお問い合わせ",
+        "bridgebase": "Bridgebase の利用",
+        "other": "その他"
+      },
+      "message": "メッセージ",
+      "messagePlaceholder": "海外展開の目標を簡単にご記入ください...",
+      "send": "送信",
+      "sent": "メッセージの準備完了",
+      "sentHint": "送信準備が整ったメッセージとともにメールクライアントが開いているはずです。何も起きない場合は、ブラウザのポップアップ設定をご確認ください。"
     }
   },
   "footer": {
+    "navLabel": "フッターナビゲーション",
     "privacyPolicy": "プライバシーポリシー",
     "termsOfService": "利用規約",
     "contactUs": "お問い合わせ",
-    "copyright": "© 2026 NOBOCO. All rights reserved."
+    "copyright": "© 2026 NOBOCO Inc. All rights reserved."
   }
 }
