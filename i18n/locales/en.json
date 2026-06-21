@@ -437,12 +437,6 @@
         "description": "Token-based access to predictive expansion modeling powered by exclusive data from over 28 active market nodes."
       }
     },
-    "traction": {
-      "expansions": "EXPANSIONS",
-      "countries": "COUNTRIES",
-      "partners": "PARTNERS",
-      "growth": "GROWTH (YoY)"
-    },
     "milestones": {
       "title": "Milestones and growth plan",
       "m1": {

@@ -33,13 +33,6 @@ const advantages = computed(() => [
   },
 ]);
 
-const tractionStats = computed(() => [
-  { value: "142+", label: t("investors.traction.expansions") },
-  { value: "28", label: t("investors.traction.countries") },
-  { value: "500+", label: t("investors.traction.partners") },
-  { value: "3.2x", label: t("investors.traction.growth") },
-]);
-
 const milestones = computed(() => [
   {
     active: true,
@@ -198,16 +191,6 @@ const milestones = computed(() => [
       class="py-24 px-margin-mobile md:px-margin-desktop bg-surface-container-low border-y border-outline-variant/30"
     >
       <div class="max-w-container mx-auto">
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-12 text-center mb-24">
-          <div v-for="stat in tractionStats" :key="stat.label">
-            <div class="font-display-lg text-display-lg text-tertiary mb-2">
-              {{ stat.value }}
-            </div>
-            <div class="font-label-md text-label-md text-on-surface-variant">
-              {{ stat.label }}
-            </div>
-          </div>
-        </div>
         <div class="max-w-3xl mx-auto">
           <h3 class="font-headline-md text-headline-md text-center mb-12">
             {{ t("investors.milestones.title") }}
